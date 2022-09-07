@@ -153,10 +153,10 @@ function crearDirectorio(registro) {
     `;
 }
 
-function crearDirectorio() {
+function mostrarDirectorio() {
   const idDirectorio = document.getElementById("directorio");
 
   idDirectorio.innerHTML = `${dbDirectorio.map(crearDirectorio).join("")}`;
 }
 
-crearDirectorio();
+mostrarDirectorio();
