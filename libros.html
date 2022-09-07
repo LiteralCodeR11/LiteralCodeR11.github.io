@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Libros Desarrollo Web</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/cards.css" />
+  </head>
+
+  <body id="libros" class="videos">
+    <div id="root">
+      <header id="menuAppHeader" class="header"></header>
+
+      <main class="conMenu-Left">
+        <aside class="aside-left">
+          <img
+            class="img-50"
+            src="/public/images/librosWebDeveloper.png"
+            alt="libros"
+          />
+          <h1>Libros</h1>
+          <p class="informativo">
+            Grandes libros para aprender desarrollo web con facilidad
+          </p>
+        </aside>
+
+        <section class="section-left">
+          <article>
+            <a href="index.html" class="migas">>>Todas las Categorías</a>
+            <div id="card-container" class="cards libros"></div>
+          </article>
+        </section>
+      </main>
+
+      <footer id="footer-section1"></footer>
+    </div>
+    <script src="../app/menu.js"></script>
+    <script src="../app/dataBase/dbLibros.js"></script>
+  </body>
+</html>
