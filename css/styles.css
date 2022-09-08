@@ -222,6 +222,11 @@ footer {
   text-align: center;
 }
 
+.links-footer {
+  text-decoration: none;
+  color: white;
+} 
+
 /*Texto y listas globales*/
 h1 {
   font-family: "Montserrat";

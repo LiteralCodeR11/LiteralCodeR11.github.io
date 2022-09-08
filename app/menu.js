@@ -17,7 +17,7 @@ function crearEncabezado() {
 
 function crearPiePagina() {
   return `
-        <p>Design by J.Martinez | 2022 Equipo Code R11</p>
+        <p>Design by J.Martinez | 2022 Equipo Code R11 | <a href="https://github.com/LiteralCodeR11/LiteralCodeR11.github.io" target="_blank" class="links-footer">GitHub</a></p>
         <p>Aprendizaje Activo basado en Proyectos</p>
         `;
 }
