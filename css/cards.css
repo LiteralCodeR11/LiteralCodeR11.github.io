@@ -59,15 +59,19 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .cards-item {
-    width: 45%;
+    width: 30%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .cards-item {
-    width: 100%;
+    width: 45%;
+  }
+
+  h2.categoriaH2 {
+    font-size: 12px;
   }
 
   .cards-item a img.imgCanalYoutube {
