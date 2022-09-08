@@ -80,6 +80,8 @@ main.container {
   grid-template-columns: 1.8fr 5fr;
 }
 
+
+
 main.aside-default {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -89,6 +91,19 @@ main.aside-default {
 main.container-aside-double {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
+}
+
+main.container-blog {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-blog{
+  width: 70%;
+} 
+
+.aside-blog {
+  width: 28%;
 }
 
 .main p,
@@ -424,6 +439,7 @@ a.asideLink:hover {
 }
 
 @media screen and (max-width: 1000px) {
+
   main,
   main.container {
     display: flex;
@@ -441,6 +457,20 @@ a.asideLink:hover {
     width: 100%;
     height: 300px;
     object-fit: cover;
+  }
+
+  main.container-blog {
+    flex-direction: column;
+  }
+  
+  .section-blog{
+    margin: 0;
+    padding: 5px;
+    width: 100%;
+  } 
+  
+  .aside-blog {
+    width: 100%;
   }
 }
 

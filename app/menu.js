@@ -9,7 +9,7 @@ function crearEncabezado() {
     <nav>
         <ul>
             <li><a href="index.html">Inicio</a></li>
-            <li><a href="proyecto-code-r11.html">Proyecto CODE R11</a></li>
+            <li><a href="proyecto-code-r11.html">Code R11</a></li>
             <li><a href="Blog.html">Blog</a></li>
         </ul>
     </nav>`;
