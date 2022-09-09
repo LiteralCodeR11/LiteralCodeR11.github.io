@@ -428,6 +428,15 @@ const dbRutas = [
           },
         ],
       },
+      {
+        linkHref: "https://es.javascript.info/",
+        targetType: "_black",
+        imgSrc: "./public/images/sitios-web/javascript-info.jpg",
+        titleH2: "JavaScript.info",
+        titleH3: "Ilya Kantor | Proyecto Open Source",
+        contents: "",
+        linkCodeR11: "",
+      },
     ],
   },
   {
