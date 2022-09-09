@@ -236,6 +236,16 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "4AFOCAgywLc",
+    imagen: "hq720",
+    titulo: "REACT ⚛️ CURSO Práctico DESDE CERO - Desarrolla una app con React.js PASO A PASO",
+    canal: "Carlos Azaustre - Aprende JavaScript",
+    texto:
+      "Curso práctico de React.js desde cero. Desarrollamos una aplicación web paso a paso. explicando conceptos y tips para tu día a día como programador con JavaScript y React.",
+    categoria: "React",
+    etiqueta: "",
+  },
+  {
     idVideo: "KxElD42SHD0",
     imagen: "hq720",
     titulo:
