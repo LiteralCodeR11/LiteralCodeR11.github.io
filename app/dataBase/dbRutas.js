@@ -470,7 +470,7 @@ const dbRutas = [
           "Referencia HTML: Hipertexto se refiere a enlaces que conectan páginas web entre sí, ya sea dentro de un solo sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web.",
         linkCodeR11: "",
         cursos: [],
-      },
+      },      
       {
         linkHref: "https://www.w3.org/TR/CSS/",
         targetType: "_blank",
@@ -490,6 +490,17 @@ const dbRutas = [
         titleH3: "MDN Web Docs",
         contents:
           "Todas las propiedades CSS estándar, pseudoclases, pseudoelementos, tipos de datos, notaciones funcionales y reglas at. Conceptos clave de CSS y una lista de selectores organizados por tipo. Breve referencia de DOM-CSS/CSSOM.",
+        linkCodeR11: "",
+        cursos: [],
+      },
+      {
+        linkHref: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/javascript.jpg",
+        titleH2: "JavaScript",
+        titleH3: "ECMA-262",
+        contents:
+          "Información exhaustiva, detallada y formal sobre JavaScript. Difícil de entender al principio, sin embargo, es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
         linkCodeR11: "",
         cursos: [],
       },
