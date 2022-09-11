@@ -932,7 +932,7 @@ const dbRutas = [
         cursos: [],
       },
       {
-        linkHref: "videos-todos.html",
+        linkHref: "videos-categorias.html",
         targetType: "",
         imgSrc: "./public/images/app/videos-todos.jpg",
         titleH2: "Más videos",

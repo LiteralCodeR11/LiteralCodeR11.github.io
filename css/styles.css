@@ -66,6 +66,35 @@ nav ul li a:hover {
   color: white;
 }
 
+nav.videos ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+  gap: 5px;
+}
+
+nav.videos ul li {
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+nav.videos ul li a {
+  text-transform:none;
+}
+
+nav.videos ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.756);
+  color: white;
+  padding: 0px 12px;
+  border-radius: 5px;
+}
+
+
+
 /*contenedor principal*/
 main {
   width: 95%;

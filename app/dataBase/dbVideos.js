@@ -57,12 +57,24 @@ const listaVideos = [
     texto: "Aprende CSS",
     categoria: "CSS",
     etiqueta: "",
-  },{
+  },
+  {
+    idVideo: "XqFR2lqBYPs",
+    imagen: "hq720",
+    titulo: "Aprende HTML y CSS - Curso Desde Cero",
+    canal: "freeCodeCamp Español",
+    texto:
+      "En este curso aprenderás los fundamentos de HTML y CSS paso a paso con ejemplos detallados.",
+    categoria: "CSS",
+    etiqueta: "",
+  },
+  {
     idVideo: "G3e-cpL7ofc",
     imagen: "hq720",
     titulo: "HTML & CSS Full Course - Beginner to Pro (2022)",
     canal: "SuperSimpleDev",
-    texto: "In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer",
+    texto:
+      "In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer",
     categoria: "CSS",
     etiqueta: "",
   },
@@ -75,15 +87,6 @@ const listaVideos = [
     categoria: "CSS",
     etiqueta: "",
   },
-  /* {
-    idVideo: "8mDEnaHaIDw",
-    imagen: "hqdefault",
-    titulo: "Como hacer una Ventana Modal | Html y Css",
-    canal: "SLee Dw",
-    texto: "Crear una Ventana Modal con HTML y CSS.",    
-    categoria: "CSS",
-    etiqueta: "",
-  }, */
   {
     idVideo: "Xt1Cw4qM3Ec",
     imagen: "hq720",
@@ -113,7 +116,7 @@ const listaVideos = [
       "Crear diseños con CSS puede ser complicado, y es complicado por el hecho de que tenemos dos herramientas de diseño diferentes en Flexbox y Grid. Decidir cuál usar en una situación dada no siempre es obvio, pero puede ser mucho más fácil cuando nos apoyamos en las fortalezas de cada uno.",
     categoria: "CSS",
     etiqueta: "",
-  },  
+  },
   {
     idVideo: "rm7bOdKaSys",
     imagen: "hq720",
@@ -132,7 +135,7 @@ const listaVideos = [
     categoria: "CSS",
     etiqueta: "",
   },
-  /*Javascript*/
+  /**Javascript*/
   {
     idVideo: "RqQ1d1qEWlE",
     imagen: "hq720",
@@ -140,6 +143,25 @@ const listaVideos = [
     canal: "Fazt",
     texto:
       "Este curso es una introducción práctica a Javascript, conoceremos su sintaxis básicas y aprenderás los fundamentos del Lenguaje.",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "ivdTnPl1ND0",
+    imagen: "hq720",
+    titulo: "Aprende JavaScript - Curso Completo desde Cero",
+    canal: "freeCodeCamp Español",
+    texto:
+      "En este curso completo de JavaScript aprenderás todo lo que necesitas saber para comenzar a trabajar este lenguaje de programación paso a paso con ejemplos.",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "8dWL3wF_OMw",
+    imagen: "hq720",
+    titulo: "JavaScript for Beginners",
+    canal: "Bro Code",
+    texto: "JavaScript tutorial for beginners full course",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -224,6 +246,16 @@ const listaVideos = [
     categoria: "NodeJS",
     etiqueta: "",
   },
+  {
+    idVideo: "1hpc70_OoAg",
+    imagen: "hq720",
+    titulo: "Aprende Node.js y Express - Curso desde Cero",
+    canal: "freeCodeCamp Español",
+    texto:
+      "Aprende los fundamentos de Node.js y Express paso a paso en este curso de 8.5 horas desde cero. Practica con un proyecto práctico y ejemplos. El curso incluye los conceptos básicos de desarrollo web back-end, JavaScript asíncrono, npm, módulos de Node.js, JSON, HTTP y mucho más.",
+    categoria: "NodeJS",
+    etiqueta: "",
+  },
   /*react*/
   {
     idVideo: "rLoWMU4L_qE",
@@ -231,14 +263,25 @@ const listaVideos = [
     titulo: "Curso de Reactjs desde Cero para principiantes 2022",
     canal: "Fazt",
     texto:
-      " React es una biblioteca de Javascript para crear interfaces web de usuario, tipicamente se usa para crear aplicaciones web frontend.",
+      "React es una biblioteca de Javascript para crear interfaces web de usuario, tipicamente se usa para crear aplicaciones web frontend.",
+    categoria: "React",
+    etiqueta: "",
+  },
+  {
+    idVideo: "6Jfk8ic3KVk",
+    imagen: "hq720",
+    titulo: "Aprende React Desde Cero - Curso de React Con Proyectos",
+    canal: "freeCodeCamp Español",
+    texto:
+      "Aprende los fundamentos de React en este curso desde cero. Crearás cuatro proyectos paso a paso y aprenderás los fundamentos para comenzar a crear aplicaciones web interactivas con React.",
     categoria: "React",
     etiqueta: "",
   },
   {
     idVideo: "4AFOCAgywLc",
     imagen: "hq720",
-    titulo: "REACT ⚛️ CURSO Práctico DESDE CERO - Desarrolla una app con React.js PASO A PASO",
+    titulo:
+      "REACT ⚛️ CURSO Práctico DESDE CERO - Desarrolla una app con React.js PASO A PASO",
     canal: "Carlos Azaustre - Aprende JavaScript",
     texto:
       "Curso práctico de React.js desde cero. Desarrollamos una aplicación web paso a paso. explicando conceptos y tips para tu día a día como programador con JavaScript y React.",
@@ -309,7 +352,7 @@ const listaVideos = [
     categoria: "Bootcamp",
     etiqueta: "",
   },
-
+  /**Proyectos HTML CSS JavaScript*/
   {
     idVideo: "HtunPQtr-Xw",
     imagen: "hq720",
@@ -321,7 +364,29 @@ const listaVideos = [
     categoria: "Proyectos",
     etiqueta: "",
   },
-
+  {
+    idVideo: "EWv2jnhZErc",
+    imagen: "hq720",
+    titulo:
+      "HTML CSS JS projects (Beginner): 16 projects using HTML CSS and JavaScript",
+    canal: "JavaScript King",
+    texto:
+      "16 HTML CSS JavaScript projects for beginners. n this video, you are going to learn 16 beginners projects in HTML CSS JavaScript that are enjoyable to work on. Develop your HTML skills and use them to build modern websites with HTML CSS and JS, including HTML5, CSS3, and JavaScript 2022.",
+    categoria: "Proyectos",
+    etiqueta: "",
+  },
+  {
+    idVideo: "DzSLUdJWrEQ",
+    imagen: "hq720",
+    titulo:
+      "HTML CSS JavaScript projects",
+    canal: "Code With Sahand",
+    texto:
+      "Beginner-friendly projects in HTML, CSS, and JavaScript. You are going to learn 11 beginner projects in HTML, CSS, and JavaScript that are fun to work on throughout the course of watching this video.",
+    categoria: "Proyectos",
+    etiqueta: "",
+  },
+  /**Portafolio */
   {
     idVideo: "X-bPSOCFM5U",
     imagen: "hq720",
@@ -475,45 +540,4 @@ const listaVideos = [
   },
 ];
 
-function crearLista(registro) {
-  return `
-<div class="ficha-video-item">
-    <figure>
-        <img onclick='crearVideos("https://www.youtube.com/embed/${
-          registro.idVideo
-        }")'
-            src="https://i.ytimg.com/vi/${registro.idVideo}/${
-    registro.imagen
-  }.jpg" 
-            alt="${registro.titulo}"  
-            width="${registro.imgAncho}" height="${registro.imgAlto}">
-    </figure>
-    
-    <div class="textos">
-        <h2>${registro.titulo}</h2>
-        <h3>${registro.canal}</h3>
-        <p style="display:none">${registro.texto}</p>        
-        <h3 class="todos">${
-          document.getElementById("Todos") ? registro.categoria : ""
-        }</h3>
-        	
-    </div>
 
-</div>
-    `;
-}
-
-function mostrarVideos() {
-  const filtrar = document.getElementsByTagName("body")[0].id;
-
-  if (filtrar == "todos") {
-    const videoItem = document.getElementById("videoItem");
-    videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`;
-  } else {
-    const result = listaVideos.filter((x) => x.categoria == filtrar);
-    const videoItem = document.getElementById("videoItem");
-    videoItem.innerHTML += `${result.map(crearLista).join("")}`;
-  }
-}
-
-mostrarVideos();
