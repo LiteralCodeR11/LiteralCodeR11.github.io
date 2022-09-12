@@ -346,8 +346,8 @@ const dbRutas = [
         linkHref: "web-dev.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/web-dev-google-developers.jpg",
-        titleH2: "Web Dev",
-        titleH3: "Google Developers",
+        titleH2: "Web Dev | Google Developers",
+        titleH3: "",
         contents: "",
         cursos: [
           {
@@ -386,15 +386,72 @@ const dbRutas = [
             contents:
               "Un curso que analiza todos los aspectos del desarrollo moderno de aplicaciones web progresivas.",
           },
+          
         ],
       },
       {
         linkHref: "https://es.javascript.info/",
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/javascript-info.jpg",
-        titleH2: "JavaScript.info",
-        titleH3: "Ilya Kantor | Proyecto Open Source",
+        titleH2: "JavaScript.info | Ilya Kantor",
+        titleH3: "",
         contents: "",
+      },
+      {
+        linkHref: "FreeCodeCamp.html",
+        targetType: "",
+        imgSrc: "./public/images/sitios-web/freecodecamp.jpg",
+        titleH2: "FreeCodeCamp",
+        titleH3: "",
+        contents: "",
+        cursos: [
+          {
+            linkHref: "https://www.FreeCodeCamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/css.jpg",
+            titleH2: "Aprende HTML y CSS - Curso Desde Cero",
+            titleH3: "FreeCodeCamp",
+            contents:
+              "Breve introducción a los fundamentos de los lenguajes HTML y CSS con enlace al video curso de 5 horas en YouTube sobre HTML y CSS.",
+          },
+          
+          {
+            linkHref: "https://www.FreeCodeCamp.org/espanol/news/aprende-javascript-curso-js-gratis-para-principiantes/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/javascript.jpg",
+            titleH2: "Aprende JavaScript: Curso JS gratis para principiantes",
+            titleH3: "FreeCodeCamp",
+            contents:
+              "Listado de recursos en línea gratuitos donde puedas comenzar a aprender JavaScript.",
+          },
+          {
+            linkHref: "https://www.FreeCodeCamp.org/learn/javascript-algorithms-and-data-structures/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/javascript.jpg",
+            titleH2: "JavaScript Algorithms and Data Structures",
+            titleH3: "FreeCodeCamp",
+            contents:
+              "Aprenderás conceptos fundamentales de programación en JavaScript. Estructuras de datos básicas como números y cadenas, matrices, objetos, funciones, bucles, declaraciones if/else y más.",
+          },          
+          {
+            linkHref: "https://www.FreeCodeCamp.org/espanol/news/40-proyectos-de-javascript-para-principiantes-ideas-faciles-para-empezar-a-codificar-en-js/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/javascript.jpg",
+            titleH2: "40 proyectos de JavaScript para principiantes",
+            titleH3: "FreeCodeCamp",
+            contents:
+              "Ideas fáciles para empezar a codificar en JS. Lista de 40 tutoriales de proyectos en JavaScript Vainilla, React y TypeScript.",
+          },
+          {
+            linkHref: "https://www.FreeCodeCamp.org/espanol/news/comandos-basicos-de-git-como-usar-git-en-un-proyecto-real/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/github.jpg",
+            titleH2: "Comandos básicos de Git: Cómo usar Git en un proyecto real",
+            titleH3: "FreeCodeCamp",
+            contents:
+              "Tutorial sobre control de versiones, cómo funcionan Git y GitHub, y cómo configurar una cuenta GitHub.",
+          },
+        ],
       },
     ],
   },
@@ -852,7 +909,7 @@ const dbRutas = [
         titleH2: "Gonzalo Pozzo",
         titleH3: "Gonzalo Pozzo | Goncy",
         contents:
-          "<a href='https://goncy.netlify.app/' target='_blank'>Web</a> <br>Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador. Co-organizador @freeCodeCampBA , ayudando a las personas a obtener su primer trabajo de TI, nunca dejé de aprender.",
+          "<a href='https://goncy.netlify.app/' target='_blank'>Web</a> <br>Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador. Co-organizador @FreeCodeCampBA , ayudando a las personas a obtener su primer trabajo de TI, nunca dejé de aprender.",
       },
       {
         linkHref: "https://www.youtube.com/c/FaztTech",
