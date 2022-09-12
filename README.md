@@ -4,6 +4,23 @@
 ## APRENDIZAJE ACTIVO
 Bienvenidos a Code R11, tu ruta de aprendizaje activo para dominar el diseño y desarrollo web. Un proyecto centrado en el ecosistema de JavaScript como pilar fundamental para tu aprendizaje.
 
+Enlace al Proyecto: []
+## 11 Categorías Principales  🛠️
+
+_Mapa de Aprendizaje para el Desarrollador Web_
+
+* [Sitios Web](https://literalcoder11.github.io/sitios-web.html) - Sitios web más relavantes para un aprendizaje activo.
+* [Documentación Oficial](https://literalcoder11.github.io/documentacion.html) - Información técnica para una comprensión profunda de las especificaciones y referencias.
+* [Libros y Gúias](https://literalcoder11.github.io/libros.html) - Selección de libros, manuales y gúias sobre desarrollo web.
+* [Herramientas](https://literalcoder11.github.io/herramientas.html) - Herramientas tecnológicas básicas para mejorar tu desempeño.
+* [Sandbox](https://literalcoder11.github.io/sand-box.html) - Experimenta y práctica tu código en un entorno de prueba.
+* [BootCamp](https://literalcoder11.github.io/boot-camp.html) - Plan de acción integral para un aprendizaje estructurado.
+* [Mentores](https://literalcoder11.github.io/mentores.html) - Guía de Expertos y mentores relevantes que hay que seguir.
+* [Videos Tutoriales](https://literalcoder11.github.io/videos.html) - Una selección de videos tutoriales agrupados por categoría.
+* [Hosting](https://literalcoder11.github.io/hosting.html) - Opciones de alojamiento web para publicar tus proyectos en la web.
+* [Portafolio](https://literalcoder11.github.io/portafolio.html) - Aprende como preparar un portafolio profesional y aplicar a mejores proyectos.
+* [Trabajos](https://literalcoder11.github.io/trabajos-remotos.html) - Descubre como tener acceso al mercado laborar como desarrollador web front-end.
+
 ### Objetivos
 El proyecto Code R11, nace con el objetivo de mostrarte el camino más corto que debes recorrer para reducir la curva de aprendizaje. Todo esto, mientras que adoptas buenas prácticas y enfocas tu aprendizaje a una ruta predeterminada. Es un mapa de aprendizaje para desarrolladores web. Donde te ofrecemos una ruta estructurada y bien definida de los lenguajes, herramientas y tecnologías que debes usar en cada paso. Nuestra meta es lograr que te conviertas en un desarrollador web profesional en el menor tiempo posible.
 

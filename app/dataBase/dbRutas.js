@@ -749,6 +749,14 @@ const dbRutas = [
         contents: "",
       },
       {
+        linkHref: "https://css-tricks.com/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/imagen-generico.jpg",
+        titleH2: "CSS-Tricks",
+        titleH3: "Diseño y Desarrollo Web",
+        contents: "Artículos diarios sobre CSS, HTML, JavaScript y todo lo relacionado con el diseño y desarrollo web.",
+      },
+      {
         linkHref: "https://fonts.google.com/",
         targetType: "_blank",
         imgSrc: "./public/images/app/google-fonts.jpg",

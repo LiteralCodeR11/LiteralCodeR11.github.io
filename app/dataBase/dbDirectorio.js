@@ -11,9 +11,19 @@ categorias:
 - Trabajo-remoto-para-programadores
 - Ganar-dinero-programación
 - Desarrollo-web
+- CSS-seminario
 */
 
 const dbDirectorio = [
+  {
+    enlace:
+      "https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/",
+    titulo: "Uso de áreas con nombre de cuadrícula para visualizar (y hacer referencia) a su diseño",
+    descripcion:
+      "Cómo usar grid-template-areas para colocar los elementos de la cuadrícula usando áreas con nombres personalizados en el nivel del contenedor de la cuadrícula en lugar de números de línea.",
+    categoria: "CSS-seminario",
+    status: "618",
+  },
   {
     enlace:
       "https://brainstation.io/career-guides/how-to-become-a-web-developer",
