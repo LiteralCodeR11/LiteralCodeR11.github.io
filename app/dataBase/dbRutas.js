@@ -751,10 +751,20 @@ const dbRutas = [
       {
         linkHref: "https://css-tricks.com/",
         targetType: "_blank",
-        imgSrc: "./public/images/app/imagen-generico.jpg",
+        imgSrc: "./public/images/app/css-tricks.jpg",
         titleH2: "CSS-Tricks",
         titleH3: "Diseño y Desarrollo Web",
         contents: "Artículos diarios sobre CSS, HTML, JavaScript y todo lo relacionado con el diseño y desarrollo web.",
+      },
+      {
+        linkHref: "https://smalldev.tools/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/small-dev-tools.jpg",
+        titleH2: "Small Dev Tools",
+        titleH3:
+          "Herramientas GRATUITAS para desarrolladores",
+        contents:
+          "Codificadores/descodificadores, formateadores de HTML/CSS/Javascript, minificadores y mucho más.",
       },
       {
         linkHref: "https://fonts.google.com/",
