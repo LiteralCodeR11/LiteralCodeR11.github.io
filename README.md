@@ -10,7 +10,7 @@ Enlace al Proyecto: []
 _Mapa de Aprendizaje para el Desarrollador Web_
 
 * [Sitios Web](https://literalcoder11.github.io/sitios-web.html) - Sitios web más relavantes para un aprendizaje activo.
-* [Documentación Oficial](https://literalcoder11.github.io/documentacion.html) - Información técnica para una comprensión profunda de las especificaciones y referencias.
+* [Documentación Oficial](https://literalcoder11.github.io/documentacion.html) - Informació técnica para una comprensión avanzada.
 * [Libros y Gúias](https://literalcoder11.github.io/libros.html) - Selección de libros, manuales y gúias sobre desarrollo web.
 * [Herramientas](https://literalcoder11.github.io/herramientas.html) - Herramientas tecnológicas básicas para mejorar tu desempeño.
 * [Sandbox](https://literalcoder11.github.io/sand-box.html) - Experimenta y práctica tu código en un entorno de prueba.
@@ -63,3 +63,12 @@ Otra buena noticia, es que cada año el nicho para un desarrollador web no para 
 ## PRACTICA tu código y adopta buenas prácticas
 
 ## Y AVANZA, no te detengas, conviértete en el mejor programador que puedes llegar a ser.
+
+## Expresiones de Gratitud 🎁
+
+* Comentale a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo code R11. 
+* Da las gracias públicamente 🤓.
+
+---
+⌨️ con ❤️ por [Juan Alvaro Martinez](https://github.com/literalCodeR11) 😊
