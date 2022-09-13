@@ -398,7 +398,7 @@ const dbRutas = [
         contents: "",
       },
       {
-        linkHref: "FreeCodeCamp.html",
+        linkHref: "freecodecamp.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/freecodecamp.jpg",
         titleH2: "FreeCodeCamp",
@@ -452,6 +452,14 @@ const dbRutas = [
               "Tutorial sobre control de versiones, cómo funcionan Git y GitHub, y cómo configurar una cuenta GitHub.",
           },
         ],
+      },
+      {
+        linkHref: "https://www.internetingishard.com/",
+        targetType: "_black",
+        imgSrc: "./public/images/sitios-web/internetingishard.jpg",
+        titleH2: "Interneting is hard",
+        titleH3: "",
+        contents: "",
       },
     ],
   },
@@ -764,7 +772,7 @@ const dbRutas = [
         titleH3:
           "Herramientas GRATUITAS para desarrolladores",
         contents:
-          "Codificadores/descodificadores, formateadores de HTML/CSS/Javascript, minificadores y mucho más.",
+          "Codificadores y descodificadores, formateadores de HTML, CSS y Javascript, minificadores y mucho más.",
       },
       {
         linkHref: "https://fonts.google.com/",
