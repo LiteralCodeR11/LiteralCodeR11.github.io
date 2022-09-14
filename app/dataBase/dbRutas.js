@@ -979,6 +979,15 @@ const dbRutas = [
     contents: "",
     group: [
       {
+        linkHref: "videos-categorias.html",
+        targetType: "",
+        imgSrc: "./public/images/app/videos-todos.jpg",
+        titleH2: "Todos los videos",
+        titleH3: "Recopilatorio",
+        contents: "Organizado por categorías",
+        cursos: [],
+      },
+      {
         linkHref: "videos-html.html",
         targetType: "",
         imgSrc: "./public/images/app/html.jpg",
@@ -1013,16 +1022,7 @@ const dbRutas = [
         titleH3: "Video Tutoriales",
         contents: "Aprende React",
         cursos: [],
-      },
-      {
-        linkHref: "videos-categorias.html",
-        targetType: "",
-        imgSrc: "./public/images/app/videos-todos.jpg",
-        titleH2: "Más videos",
-        titleH3: "Recopilatorio",
-        contents: "Recopilatorio más categorías",
-        cursos: [],
-      },
+      },      
     ],
   },
   {

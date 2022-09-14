@@ -17,6 +17,15 @@ categorias:
 const dbDirectorio = [
   {
     enlace:
+      "https://css-tricks.com/when-do-you-use-css-columns/",
+    titulo: "¿Cuándo usar CSS Columns?",
+    descripcion:
+      "Aprende como aplicar un estilo en columnas para presentar los párrafos en columnas.",
+    categoria: "CSS-seminario",
+    status: "618",
+  },
+  {
+    enlace:
       "https://css-tricks.com/using-grid-named-areas-to-visualize-and-reference-your-layout/",
     titulo: "Uso de áreas con nombre de cuadrícula para visualizar (y hacer referencia) a su diseño",
     descripcion:

@@ -83,7 +83,7 @@ nav.videos ul li {
 }
 
 nav.videos ul li a {
-  text-transform:none;
+  text-transform: none;
 }
 
 nav.videos ul li a:hover {
@@ -92,8 +92,6 @@ nav.videos ul li a:hover {
   padding: 0px 12px;
   border-radius: 5px;
 }
-
-
 
 /*contenedor principal*/
 main {
@@ -108,8 +106,6 @@ main.container {
   display: grid;
   grid-template-columns: 1.8fr 5fr;
 }
-
-
 
 main.aside-default {
   display: grid;
@@ -127,9 +123,9 @@ main.container-blog {
   flex-direction: row;
 }
 
-.section-blog{
+.section-blog {
   width: 70%;
-} 
+}
 
 .aside-blog {
   width: 28%;
@@ -152,6 +148,11 @@ main.section-centrar {
   width: 75%;
   display: block;
   margin: 0 auto;
+}
+
+.centrar-texto h2,
+.centrar-texto h3 {
+  text-align: center;
 }
 
 section {
@@ -208,6 +209,10 @@ aside p {
   font-size: 14px;
 }
 
+aside p.normal {
+  font-size: 18px;
+}
+
 aside div.grupo {
   border: 1px solid #f44336;
   border-radius: 10px;
@@ -252,9 +257,9 @@ footer {
 }
 
 .links-footer {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
-} 
+}
 
 /*Texto y listas globales*/
 h1 {
@@ -415,7 +420,7 @@ img.cursos {
   font-size: 130%;
 }
 
-iframe {   
+iframe {
   width: 100%;
   height: 500px;
   object-fit: cover;
@@ -473,7 +478,6 @@ a.asideLink:hover {
 }
 
 @media screen and (max-width: 1000px) {
-
   main,
   main.container {
     display: flex;
@@ -496,13 +500,13 @@ a.asideLink:hover {
   main.container-blog {
     flex-direction: column;
   }
-  
-  .section-blog{
+
+  .section-blog {
     margin: 0;
     padding: 5px;
     width: 100%;
-  } 
-  
+  }
+
   .aside-blog {
     width: 100%;
   }
@@ -538,5 +542,13 @@ a.asideLink:hover {
     flex-direction: column;
     width: 100%;
     padding: 15px;
+  }
+
+  main.section-centrar {
+    width: 95%;
+  }
+
+  element.style {
+    width: 95%;
   }
 }
