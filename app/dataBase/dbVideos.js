@@ -88,6 +88,15 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "Fj6BGtNvXIc",
+    imagen: "hq720",
+    titulo: "Guía Completa de Grid animada | Curso CSS",
+    canal: "Vida MRR - Programacion web",
+    texto: "Cómo usar Grid con CSS, todas sus propiedades y formas de usarlo para el diseño de tus sitios o aplicaciones web.",
+    categoria: "CSS",
+    etiqueta: "",
+  },
+  {
     idVideo: "Xt1Cw4qM3Ec",
     imagen: "hq720",
     titulo: "Josh Comeau – Secret Mechanisms of CSS",
@@ -162,6 +171,15 @@ const listaVideos = [
     titulo: "JavaScript for Beginners",
     canal: "Bro Code",
     texto: "JavaScript tutorial for beginners full course",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "g8tSj92VsXo",
+    imagen: "hq720",
+    titulo: "10 Tips para Programadores que comienzan con Javascript",
+    canal: "hdeleon.net",
+    texto: "Consejos que te servirán cuando programas en el lenguaje de programación Javascript",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -387,6 +405,16 @@ const listaVideos = [
     etiqueta: "",
   },
   /**Portafolio */
+  {
+    idVideo: "dQtiZlApIXc",
+    imagen: "hq720",
+    titulo: "Build a Responsive Freelancer Personal Portfolio Website Design using HTML CSS And JavaScript",
+    canal: "Tahmid Ahmed",
+    texto:
+      "In this video, you will learn to Build a Complete Responsive Portfolio website design using HTML and CSS step by step.",
+    categoria: "Portafolio",
+    etiqueta: "",
+  },
   {
     idVideo: "X-bPSOCFM5U",
     imagen: "hq720",
