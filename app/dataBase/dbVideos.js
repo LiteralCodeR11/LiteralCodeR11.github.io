@@ -92,7 +92,8 @@ const listaVideos = [
     imagen: "hq720",
     titulo: "Guía Completa de Grid animada | Curso CSS",
     canal: "Vida MRR - Programacion web",
-    texto: "Cómo usar Grid con CSS, todas sus propiedades y formas de usarlo para el diseño de tus sitios o aplicaciones web.",
+    texto:
+      "Cómo usar Grid con CSS, todas sus propiedades y formas de usarlo para el diseño de tus sitios o aplicaciones web.",
     categoria: "CSS",
     etiqueta: "",
   },
@@ -179,7 +180,8 @@ const listaVideos = [
     imagen: "hq720",
     titulo: "10 Tips para Programadores que comienzan con Javascript",
     canal: "hdeleon.net",
-    texto: "Consejos que te servirán cuando programas en el lenguaje de programación Javascript",
+    texto:
+      "Consejos que te servirán cuando programas en el lenguaje de programación Javascript",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -339,6 +341,16 @@ const listaVideos = [
     categoria: "React",
     etiqueta: "",
   },
+  /**TypeScript */
+  {
+    idVideo: "IJ_mpJRaHmc",
+    imagen: "hq720",
+    titulo: "Curso de TypeScript - Aprender typescript desde cero",
+    canal: "Domini Code",
+    texto: "",
+    categoria: "TypeScript",
+    etiqueta: "",
+  },
   /**Tools */
   {
     idVideo: "bp_IXqYRgYw",
@@ -396,8 +408,7 @@ const listaVideos = [
   {
     idVideo: "DzSLUdJWrEQ",
     imagen: "hq720",
-    titulo:
-      "HTML CSS JavaScript projects",
+    titulo: "HTML CSS JavaScript projects",
     canal: "Code With Sahand",
     texto:
       "Beginner-friendly projects in HTML, CSS, and JavaScript. You are going to learn 11 beginner projects in HTML, CSS, and JavaScript that are fun to work on throughout the course of watching this video.",
@@ -408,7 +419,8 @@ const listaVideos = [
   {
     idVideo: "dQtiZlApIXc",
     imagen: "hq720",
-    titulo: "Build a Responsive Freelancer Personal Portfolio Website Design using HTML CSS And JavaScript",
+    titulo:
+      "Build a Responsive Freelancer Personal Portfolio Website Design using HTML CSS And JavaScript",
     canal: "Tahmid Ahmed",
     texto:
       "In this video, you will learn to Build a Complete Responsive Portfolio website design using HTML and CSS step by step.",
@@ -567,5 +579,3 @@ const listaVideos = [
     etiqueta: "",
   },
 ];
-
-

@@ -461,6 +461,14 @@ const dbRutas = [
         titleH3: "",
         contents: "",
       },
+      {
+        linkHref: "https://manz.dev/como-empezar/",
+        targetType: "_black",
+        imgSrc: "./public/images/sitios-web/manz-dev.jpg",
+        titleH2: "manz.dev",
+        titleH3: "",
+        contents: "",
+      },
     ],
   },
   {
