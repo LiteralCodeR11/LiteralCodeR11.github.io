@@ -384,6 +384,17 @@ const listaVideos = [
   },
   /**Proyectos HTML CSS JavaScript*/
   {
+    idVideo: "XZTt1NFDnDw",
+    imagen: "hq720",
+    titulo:
+      "20 Proyectos completos con CSS",
+    canal: "Vida MRR - Programacion web",
+    texto:
+      "20 proyectos completos con CSS, para que puedas practicar más del lenguaje y aprendas algunos trucos sobre animaciones, 3D, layouts, selectores avanzados y más.",
+    categoria: "Proyectos",
+    etiqueta: "",
+  },
+  {
     idVideo: "HtunPQtr-Xw",
     imagen: "hq720",
     titulo:

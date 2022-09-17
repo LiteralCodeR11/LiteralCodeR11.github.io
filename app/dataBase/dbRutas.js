@@ -793,6 +793,16 @@ const dbRutas = [
           "Google Fonts es una biblioteca de 1442 familias de fuentes de código abierto y API para un uso conveniente a través de CSS y Android.",
       },
       {
+        linkHref: "https://www.fluid-type-scale.com/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/fluid-type-scale.jpg",
+        titleH2: "Fluid Type Scale",
+        titleH3:
+          "Genera variables de tamaño de fuente para una escala de tipo fluido en CSS",
+        contents:
+          "Aprovecha el CSS y unidades de ancho de ventana gráfica y genera un conjunto de variables de tamaño de fuente que escalan linealmente entre tus tamaños mínimo y máximo",
+      },
+      {
         linkHref: "https://roadmap.sh/frontend",
         targetType: "_blank",
         imgSrc: "./public/images/app/roadmap-SH.jpg",
