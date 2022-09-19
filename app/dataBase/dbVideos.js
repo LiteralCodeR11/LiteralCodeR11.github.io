@@ -29,6 +29,16 @@ const listaVideos = [
     etiqueta: "Tutorial",
   },
   {
+    idVideo: "2Mw6WBe0iSM",
+    imagen: "hq720",
+    titulo: "HTML Crash Course for Beginners",
+    canal: "FollowAndrew",
+    texto:
+      "This HTML crash course will cover all of the basics of HTML and is intended or beginners just starting out on the web.  We'll be covering all of the basics of HTML with it's syntax and properties and values.  Hyper Text Markup Language (HTML) powers the web, so it's time we get to learning it!",
+    categoria: "HTML",
+    etiqueta: "Tutorial",
+  },
+  {
     idVideo: "qz0aGYrrlhU",
     imagen: "hq720",
     titulo: "HTML Tutorial for Beginners: HTML Crash Course",
@@ -75,6 +85,16 @@ const listaVideos = [
     canal: "SuperSimpleDev",
     texto:
       "In this full course, we learn how to build websites with HTML and CSS, and get started as a software engineer",
+    categoria: "CSS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "UO8ed-JB4So",
+    imagen: "hq720",
+    titulo: "CSS Positioning Tutorial - Relative vs. Absolute vs. Fixed vs. Sticky | Crash Course",
+    canal: "FollowAndrew",
+    texto:
+      "This CSS positioning tutorial covers everything you need to know to master CSS positioning.  We look at the tried and true relative vs absolute and fixed positioning as well as the newer 'sticky' position. ",
     categoria: "CSS",
     etiqueta: "",
   },
@@ -145,6 +165,15 @@ const listaVideos = [
     categoria: "CSS",
     etiqueta: "",
   },
+  {
+    idVideo: "OGJvhpoE8b4",
+    imagen: "hq720",
+    titulo: "I never thought this would be possible with CSS | :has()",
+    canal: "Kevin Powell",
+    texto: "The :has() pseudo-class is here, and while it’s often called the parent selector, it can actually do a lot more than that!",
+    categoria: "CSS",
+    etiqueta: "",
+  },
   /**Javascript*/
   {
     idVideo: "RqQ1d1qEWlE",
@@ -172,6 +201,15 @@ const listaVideos = [
     titulo: "JavaScript for Beginners",
     canal: "Bro Code",
     texto: "JavaScript tutorial for beginners full course",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "6pidsgeLLzE",
+    imagen: "hq720",
+    titulo: "Responsive Nav Bar Tutorial | HTML CSS JS Flexbox Navigation Menu",
+    canal: "FollowAndrew",
+    texto: "Learn how to build a nav bar that is fully responsive tutorial with CSS Flexbox.  We'll be using some Javascript alongside our HTML & CSS to create the navigation bar menu.",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -241,7 +279,18 @@ const listaVideos = [
       "Javascript - Fetch y Filtrado de Datos (Ejemplo práctico usando Replit)",
     canal: "Fazt Code",
     texto:
-      "crear una aplicacion frontend basada en HTML, CSS y Javasscript puro, que nos permita solicitar 1000 datos de usuarios y poder filtrarlos usando el metodo filter de los arrays de Javascript.",
+      "Crear una aplicacion frontend basada en HTML, CSS y Javasscript puro, que nos permita solicitar 1000 datos de usuarios y poder filtrarlos usando el metodo filter de los arrays de Javascript.",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "a00NRSFgHsY",
+    imagen: "hq720",
+    titulo:
+      "5 JavaScript Concepts You HAVE TO KNOW",
+    canal: "James Q Quick",
+    texto:
+      "How well do you know JavaScript? Well, if you don't know these 5 concepts, then you better get on it!",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -426,6 +475,16 @@ const listaVideos = [
     categoria: "Proyectos",
     etiqueta: "",
   },
+  {
+    idVideo: "uobBpp0qUuY",
+    imagen: "hq720",
+    titulo: "5 proyectos de React 😎 que todos los desarrolladores junior deberían construir + Consejos",
+    canal: "Tzuzul Code",
+    texto:
+      "El top 5 de los proyectos que puedes realizar que te ayudaran a mejorar tus habilidades en programación y sobre todo en React 😎",
+    categoria: "Proyectos",
+    etiqueta: "",
+  },
   /**Portafolio */
   {
     idVideo: "dQtiZlApIXc",
@@ -534,10 +593,21 @@ const listaVideos = [
     titulo: "CÓMO BUSCAR TRABAJO en REMOTO como DESARROLLADOR",
     canal: "Carlos Azaustre - Aprende JavaScript",
     texto:
-      " ¡Apúntate como Arc Featured Developer y consigue tu nuevo empleo en remoto como Desarrollador!",
+      "¡Apúntate como Arc Featured Developer y consigue tu nuevo empleo en remoto como Desarrollador!",
     categoria: "Trabajos",
     etiqueta: "",
   },
+  {
+    idVideo: "scdT_6GoLNo",
+    imagen: "hq720",
+    titulo: "Por qué los sueldos en trabajos de tecnología NO BAJAN 📈",
+    canal: "Platzi",
+    texto:
+      "En este video no solo intentaremos convencerte para que estudies tecnología, te demostraremos que una vez que inicies tu carrera en una de las carreras más demandadas de los últimos años, tus ingresos no solo se mantendrán, sino que también se incrementarán.",
+    categoria: "Trabajos",
+    etiqueta: "",
+  },
+  /**Bootcamp */
   {
     idVideo: "zJSY8tbf_ys",
     imagen: "hq720",

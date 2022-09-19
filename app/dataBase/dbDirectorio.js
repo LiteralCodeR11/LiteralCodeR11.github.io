@@ -12,6 +12,7 @@ categorias:
 - Ganar-dinero-programación
 - Desarrollo-web
 - CSS-seminario
+- Videos-Tutoriales
 */
 
 const dbDirectorio = [
@@ -162,6 +163,15 @@ const dbDirectorio = [
       " recorrer un arreglo utilizando como ejemplo un archivo de excel. Aprenderás a agrupar los datos como lo hacen las tablas dinámicas de excel y a sumar los datos por un criterio específico.",
     categoria: "JavaScript",
     etiqueta: "Array and Object",
+  },
+  {
+    enlace: "https://www.youtube.com/watch?v=Iaw9rFopXPY",
+    titulo:
+      "Como CREAR una ventana MODAL ✅ [ HTML CSS Y JavaScript ]",
+    descripcion:
+      "Aprende a crear una ventana modal con HTML CSS y Javascript, sin frameworks, ni librerías, solamente con HTML CSS y JS puros, además de que el modal será adaptable a dispositivos móviles. ",
+    categoria: "Videos-Tutoriales",
+    etiqueta: "Ventana Modal",
   },
 ];
 
