@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Herramientas para Desarrolladores Web</title>
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/cards.css" />
-  </head>
 
-  <body id="herramientas" class="inicio">
-    <div id="root">
-      <header id="menuAppHeader" class="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herramientas para Desarrolladores Web</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/cards.css" />
+</head>
 
-      <main class="container">
-        <aside class="aside-default">
-          <img
-            class="img-50"
-            src="./public/images/herramientasWebDeveloper.png"
-            alt="herramientas"
-          />
-          <h1>Herramientas</h1>
-          <p>Herramientas tecnológicas básicas para mejorar tu desempeño como diseñador y programador web.</p>
-        </aside>
+<body id="herramientas" class="inicio">
+  <div id="root">
+    <header id="menuAppHeader" class="header"></header>
 
-        <section class="section-default">
-          <article>
-            <a href="index.html" class="migas">>>Todas las categorías</a>
-            <h2>Técnología</h2>
-            <div id="card-container" class="cards herramientas"></div>
-          </article>
+    <main class="container">
+      <aside class="aside-default">
+        <img class="img-50" src="./public/images/herramientasWebDeveloper.png" alt="herramientas" />
+        <h1>Herramientas</h1>
+        <p>Herramientas tecnológicas básicas para mejorar tu desempeño como diseñador y programador web.</p>
+        <ul>
+          <li><a href="#tecnologia">Tecnología</a></li>
+          <li><a href="#ingles">Inglés para Desarrolladores web</a></li>
+        </ul>
+      </aside>
 
-          <article>
-            <hr class="dividir-con-margen" />
-            <h2>Inglés para Programadores</h2>
-            <div id="card-container-ingles" class="cards ingles"></div>
-          </article>
-        </section>
-      </main>
-      <footer id="footer-section1"></footer>
-    </div>
-    <script src="../app/menu.js"></script>
-    <script src="../app/dataBase/dbRutas.js"></script>
-    <script src="../app/mostrar-por-grupo.js"></script>
-  </body>
+      <section class="section-default">
+        <article>
+          <a href="index.html" class="migas">>>Todas las categorías</a>
+          <h2 id="tecnologia">Técnología</h2>
+          <div id="card-container" class="cards herramientas"></div>
+        </article>
+
+        <article>
+          <hr class="dividir-con-margen" />
+          <h2 id="ingles">Inglés para Desarrolladores Web</h2>
+          <div id="card-container-ingles" class="cards ingles"></div>
+        </article>
+      </section>
+    </main>
+    <footer id="footer-section1"></footer>
+  </div>
+  <script src="/app/menu.js"></script>
+  <script src="/app/dataBase/dbRutas.js"></script>
+  <script src="/app/mostrar-por-grupo.js"></script>
+</body>
+
 </html>

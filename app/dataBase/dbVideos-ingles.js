@@ -1,5 +1,14 @@
 const listaVideos = [
   {
+    idVideo: "WjBfC2AATys",
+    imagen: "hq720",
+    titulo: "Inglés para Programadores - Presentación del curso 🎉Principiantes",
+    canal: "English for Devs Club",
+    texto: "Presentación del Curso de Inglés para Programadores",
+    categoria: "Curso",
+    etiqueta: "",
+  },
+  {
     idVideo: "V08k_8SbJsY",
     imagen: "hq720",
     titulo: "Mitos que aún CREES sobre APRENDER INGLÉS",
@@ -11,7 +20,7 @@ const listaVideos = [
   {
     idVideo: "ZvorMuMyoFM",
     imagen: "hq720",
-    titulo: "🇬🇧 ¡MEJORA tu INGLÉS con estos recursos!",
+    titulo: "¡MEJORA tu INGLÉS con estos recursos!",
     canal: "Midudev",
     texto:
       " ¿Quieres saber cómo he mejorado mi inglés? Más allá de ponerlo todo con subtítulos y consumir series y películas en versión original.",
