@@ -42,6 +42,13 @@ header {
   height: 100%;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -475,6 +482,27 @@ a.asideLink:hover {
   object-fit: cover;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+/*Redes Sociales*/
+.redes-sociales {
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.redes-sociales figure {
+  height: 30px;
+  width: 30px;
+}
+
+.redes-sociales figure img {
+  height: 100%;
+  width: 100%;
+}
+
+.redes-sociales figure img:hover {
+  rotate: -15deg;
 }
 
 @media screen and (max-width: 1000px) {
