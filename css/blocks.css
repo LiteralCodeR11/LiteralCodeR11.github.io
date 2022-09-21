@@ -53,7 +53,7 @@
 /*bloque centrado*/
 .block-text-center {
   width: 100%;
-  padding: 50px;
+  padding: 50px 8px;
   background-color: #457992;
   text-align: center;
   color: white;

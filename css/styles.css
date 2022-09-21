@@ -546,6 +546,7 @@ a.asideLink:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
   }
 
   nav ul {
