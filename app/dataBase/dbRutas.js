@@ -826,7 +826,7 @@ const dbRutas = [
       "Prácticas y ejercicios para probar, aprender y desarrolla tu lógica de Programación",
     group: [
       {
-        linkHref: "",
+        linkHref: "https://codepen.io/",
         targetType: "_blank",
         imgSrc: "./public/images/app/codepen.jpg",
         titleH2: "Codepen",
@@ -990,7 +990,7 @@ const dbRutas = [
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/ytc/AKedOLSggvA4usmC3lIDdqORkmsje78sxwaSPsQ3gefNYw=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Fazt",
+        titleH2: "Jesus Fazt",
         titleH3: "Fazt",
         contents:
           "<a href='https://www.faztweb.com/' target='_blank'>Web</a><br>Todo lo que siempre quisiste saber sobre programación web y nunca te atreviste a preguntar.",
