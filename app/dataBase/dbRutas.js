@@ -936,6 +936,36 @@ const dbRutas = [
     contents: "",
     group: [
       {
+        linkHref: "https://twitter.com/freddier",
+        targetType: "_blank",
+        imgSrc:
+          "public/images/otros/Freddy-Vega.jpg",
+        titleH2: "Freddy Vega",
+        titleH3: "Platzi",
+        contents:
+          "<a href='https://freddyvega.com/john-freddy-vega/' target='_blank'>Web</a> <br>Fundador y CEO de Platzi, John Freddy Vega es uno de los 20 latinos más influyentes de la industria de la tecnología, de acuerdo con el sitio web CNET.",
+      },      
+      {
+        linkHref: "https://twitter.com/rauchg",
+        targetType: "_blank",
+        imgSrc:
+          "public/images/otros/Guillermo-Rauch.jpg",
+        titleH2: "Guillermo Rauch",
+        titleH3: "Vercel CEO",
+        contents:
+          "<a href='https://rauchg.com/' target='_blank'>Web</a> <br> Guillermo Rauch es una de las personas más influyentes en el mundo del desarrollo web. Actualmente es CEO y co-fundador de Vercel ▲ (hasta hace muy poco ZEIT), una plataforma que te permite desplegar tus aplicaciones de forma rápida y sencilla.",
+      },
+      {
+        linkHref: "https://www.youtube.com/c/HolaMundoDev",
+        targetType: "_blank",
+        imgSrc:
+          "public/images/otros/Nicolas-Schurmann.jpg",
+        titleH2: "Nicolas Schurmann",
+        titleH3: "Hola Mundo",
+        contents:
+          "<a href='https://www.nicolas-schurmann.com/' target='_blank'>Web</a> <br>Educación académica para desarrolladores del mundo de habla hispana, con capacitaciones de alto nivel, de lo más básico hasta lo más avanzado.",
+      },
+      {
         linkHref: "https://www.youtube.com/c/midudev",
         targetType: "_blank",
         imgSrc:
@@ -944,16 +974,6 @@ const dbRutas = [
         titleH3: "Midudev",
         contents:
           "<a href='https://midu.dev/' target='_blank'>Web</a> <br>Desarrollo con JavaScript. Programación web y FULL STACK con React, Node.js, HTML, CSS, Tailwind, Next.js y Deno.",
-      },
-      {
-        linkHref: "https://www.youtube.com/c/HolaMundoDev",
-        targetType: "_blank",
-        imgSrc:
-          "https://yt3.ggpht.com/Z69fhRL9_OaXsDz-XsCUe2sGIqU7G1F5Mwl0PwlBsx_ll13K0nLb47q7_RMen7NHvzMVDgd2=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Nicolas Schurmann",
-        titleH3: "Hola Mundo",
-        contents:
-          "<a href='https://www.nicolas-schurmann.com/' target='_blank'>Web</a> <br>Educación académica para desarrolladores del mundo de habla hispana, con capacitaciones de alto nivel, de lo más básico hasta lo más avanzado.",
       },
       {
         linkHref: "https://www.youtube.com/c/GonzaloPozzo",
