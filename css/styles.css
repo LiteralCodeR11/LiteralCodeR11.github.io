@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Open+Sans:wght@300;400;500;800&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,1000&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Open+Sans:wght@300;400;500;800&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,1000&display=swap");
 
 * {
   box-sizing: border-box;
@@ -46,7 +46,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px
+  gap: 15px;
 }
 
 nav ul {
@@ -483,6 +483,12 @@ a.asideLink:hover {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+.email-coder11 {
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
 /*Redes Sociales*/
 .redes-sociales {
   padding-top: 10px;
@@ -580,6 +586,4 @@ a.asideLink:hover {
   main.section-centrar {
     width: 95%;
   }
-
-   
 }
