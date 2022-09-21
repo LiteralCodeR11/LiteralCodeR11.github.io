@@ -826,9 +826,19 @@ const dbRutas = [
       "Prácticas y ejercicios para probar, aprender y desarrolla tu lógica de Programación",
     group: [
       {
+        linkHref: "",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/codepen.jpg",
+        titleH2: "Codepen",
+        titleH3:
+          "El mejor lugar para compilar, probar y descubrir código front-end.",
+        contents:
+          "CodePen es un entorno de desarrollo social para diseñadores y desarrolladores front-end.",
+      },
+      {
         linkHref: "https://www.frontendmentor.io/",
         targetType: "_blank",
-        imgSrc: "./public/images/app/imagen-generico.jpg",
+        imgSrc: "./public/images/app/frontendmentor.jpg",
         titleH2: "Frontend Mentor",
         titleH3:
           "Mejora tus habilidades de codificación front-end con proyectos reales",
@@ -953,7 +963,7 @@ const dbRutas = [
         titleH2: "Gonzalo Pozzo",
         titleH3: "Gonzalo Pozzo | Goncy",
         contents:
-          "<a href='https://goncy.netlify.app/' target='_blank'>Web</a> <br>Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador. Co-organizador @FreeCodeCampBA , ayudando a las personas a obtener su primer trabajo de TI, nunca dejé de aprender.",
+          "<a href='https://goncy.netlify.app/' target='_blank'>Web</a> <br>Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador.",
       },
       {
         linkHref: "https://www.youtube.com/c/FaztTech",
@@ -976,6 +986,16 @@ const dbRutas = [
           "<a href='http://www.falconmasters.com/' target='_blank'>Web</a><br>YouTuber, Diseñador Web, Geek y Emprendedor",
       },
       {
+        linkHref: "https://www.joshwcomeau.com/",
+        targetType: "_blank",
+        imgSrc:
+          "public/images/otros/josh-comeau.jpg",
+        titleH2: "Josh Comeau",
+        titleH3: "Josh W. Comeau",
+        contents:
+          "<a href='https://www.joshwcomeau.com/' target='_blank'>Web</a><br>Desarrollador independiente y educador. CSS para desarrolladores de JavaScript",
+      },
+      /* {
         linkHref: "https://www.youtube.com/c/ColtSteeleCode",
         targetType: "_blank",
         imgSrc:
@@ -983,7 +1003,7 @@ const dbRutas = [
         titleH2: "Colt Steele",
         titleH3: "Colt Steele",
         contents: "",
-      },
+      }, */
     ],
   },
   {
