@@ -304,6 +304,15 @@ const listaVideos = [
     categoria: "Git",
     etiqueta: "",
   },
+  {
+    idVideo: "OZDKNqMXSxA",
+    imagen: "hq720",
+    titulo: "Cómo crear tu página GRATIS con GITHUB PAGES",
+    canal: "s4vitar",
+    texto: "¿Quieres empezar a crear contenido con coste cero?, en este vídeo te explico cómo crear tu página web pública gratis con GitHub Pages.",
+    categoria: "Git",
+    etiqueta: "",
+  },
   /*Nodejs*/
   {
     idVideo: "i3OdKwuBjeM",
@@ -390,6 +399,74 @@ const listaVideos = [
     categoria: "React",
     etiqueta: "",
   },
+  /**Next.js*/
+  {
+    idVideo: "PFIzbQ5Bh0c",
+    imagen: "hq720",
+    titulo:
+      "¿Por qué Nextjs sobre React?",
+    canal: "Fazt Code",
+    texto:
+      "Nextjs posee un enrutador, la forma de crear APIs (REST APIs y GraphQL APis), optimizacion de Scripts e Images, multiples formas de renderizado (SSR, ISR, SSG, Client Side Rendering) y la facilidad de despliegue usando Vercel con un simple comando.",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "xReLCPuoCE0",
+    imagen: "hq720",
+    titulo:
+      "Aprende esto antes de iniciar con Next.JS",
+    canal: "Vida MRR - Programacion web",
+    texto:
+      "Consejos básicos que necesitas conocer de Javascript para empezar con Next.js",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "2jxc8DMzt0I",
+    imagen: "hq720",
+    titulo:
+      "Aprendiendo NextJS, el framework de React con Server Side Rendering",
+    canal: "midudev",
+    texto:
+      "NextJS es el framework más famoso de React. Nos proporciona muchas facilidades para desarrollar apps con la biblioteca de Facebook como un sistema de rutas basado en archivos físicos, ServerSide Rendering, generación de archivos estáticos, React Fast Refresh y mucho más.",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "avGmwUzGJKA",
+    imagen: "hq720",
+    titulo:
+      "Curso completo para aprender Next.JS",
+    canal: "Vida MRR - Programacion web",
+    texto:
+      "En este curso gratuito de Nextjs vamos a aprender a crear una tienda online usando los conceptos más importantes para el manejo de rutas, el data fetching y el manejo del estado con Nextjs. ",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "pFT8wD2uRSE",
+    imagen: "hq720",
+    titulo:
+      "CURSO de NEXT.JS 12 desde CERO y con dos proyectos prácticos",
+    canal: "midulive",
+    texto:
+      "Creamos un proyecto desde cero con Next.js",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
+    idVideo: "Tn6QYliFBcs",
+    imagen: "hq720",
+    titulo:
+      "Nextjs Curso Práctico | Framework de SSR basado en React",
+    canal: "Fazt Code",
+    texto:
+      "En este video vamos a aprender acerca de Next.js, un framework de React que nos permite poder crear aplicaciones web dinamicas combinando conceptos del backend y frontend de una manera integrada usando Server Side Rendering(SSR).",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  /**Vercel*/ 
   /**TypeScript */
   {
     idVideo: "IJ_mpJRaHmc",
