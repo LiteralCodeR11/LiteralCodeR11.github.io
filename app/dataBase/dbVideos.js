@@ -91,7 +91,8 @@ const listaVideos = [
   {
     idVideo: "UO8ed-JB4So",
     imagen: "hq720",
-    titulo: "CSS Positioning Tutorial - Relative vs. Absolute vs. Fixed vs. Sticky | Crash Course",
+    titulo:
+      "CSS Positioning Tutorial - Relative vs. Absolute vs. Fixed vs. Sticky | Crash Course",
     canal: "FollowAndrew",
     texto:
       "This CSS positioning tutorial covers everything you need to know to master CSS positioning.  We look at the tried and true relative vs absolute and fixed positioning as well as the newer 'sticky' position. ",
@@ -170,7 +171,8 @@ const listaVideos = [
     imagen: "hq720",
     titulo: "I never thought this would be possible with CSS | :has()",
     canal: "Kevin Powell",
-    texto: "The :has() pseudo-class is here, and while it’s often called the parent selector, it can actually do a lot more than that!",
+    texto:
+      "The :has() pseudo-class is here, and while it’s often called the parent selector, it can actually do a lot more than that!",
     categoria: "CSS",
     etiqueta: "",
   },
@@ -209,7 +211,8 @@ const listaVideos = [
     imagen: "hq720",
     titulo: "Responsive Nav Bar Tutorial | HTML CSS JS Flexbox Navigation Menu",
     canal: "FollowAndrew",
-    texto: "Learn how to build a nav bar that is fully responsive tutorial with CSS Flexbox.  We'll be using some Javascript alongside our HTML & CSS to create the navigation bar menu.",
+    texto:
+      "Learn how to build a nav bar that is fully responsive tutorial with CSS Flexbox.  We'll be using some Javascript alongside our HTML & CSS to create the navigation bar menu.",
     categoria: "JavaScript",
     etiqueta: "",
   },
@@ -286,8 +289,7 @@ const listaVideos = [
   {
     idVideo: "a00NRSFgHsY",
     imagen: "hq720",
-    titulo:
-      "5 JavaScript Concepts You HAVE TO KNOW",
+    titulo: "5 JavaScript Concepts You HAVE TO KNOW",
     canal: "James Q Quick",
     texto:
       "How well do you know JavaScript? Well, if you don't know these 5 concepts, then you better get on it!",
@@ -309,11 +311,22 @@ const listaVideos = [
     imagen: "hq720",
     titulo: "Cómo crear tu página GRATIS con GITHUB PAGES",
     canal: "s4vitar",
-    texto: "¿Quieres empezar a crear contenido con coste cero?, en este vídeo te explico cómo crear tu página web pública gratis con GitHub Pages.",
+    texto:
+      "¿Quieres empezar a crear contenido con coste cero?, en este vídeo te explico cómo crear tu página web pública gratis con GitHub Pages.",
     categoria: "Git",
     etiqueta: "",
   },
   /*Nodejs*/
+  {
+    idVideo: "EsKJlhWs1XY",
+    imagen: "hq720",
+    titulo: "¿Javascript en el backend? ¿Qué es Node.js?",
+    canal: "Programador X",
+    texto:
+      "Todo lo que necesitas saber de Node.js antes de empezar a programar en backend. Node.js se duerme hasta que recibe pedidos, no bloquea, está enfocado en el uso de streaming, chats, videojuegos, y  funciona bajo un solo hilo. También te cuento su historia, quién lo utiliza, y sus limitaciones.",
+    categoria: "NodeJS",
+    etiqueta: "",
+  },
   {
     idVideo: "i3OdKwuBjeM",
     imagen: "hq720",
@@ -403,8 +416,7 @@ const listaVideos = [
   {
     idVideo: "PFIzbQ5Bh0c",
     imagen: "hq720",
-    titulo:
-      "¿Por qué Nextjs sobre React?",
+    titulo: "¿Por qué Nextjs sobre React?",
     canal: "Fazt Code",
     texto:
       "Nextjs posee un enrutador, la forma de crear APIs (REST APIs y GraphQL APis), optimizacion de Scripts e Images, multiples formas de renderizado (SSR, ISR, SSG, Client Side Rendering) y la facilidad de despliegue usando Vercel con un simple comando.",
@@ -414,8 +426,7 @@ const listaVideos = [
   {
     idVideo: "xReLCPuoCE0",
     imagen: "hq720",
-    titulo:
-      "Aprende esto antes de iniciar con Next.JS",
+    titulo: "Aprende esto antes de iniciar con Next.JS",
     canal: "Vida MRR - Programacion web",
     texto:
       "Consejos básicos que necesitas conocer de Javascript para empezar con Next.js",
@@ -434,10 +445,19 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "Ywj6YGgE5RI",
+    imagen: "hq720",
+    titulo: "Nextjs Portafolio Simple | Ejemplo Práctico de Next.js",
+    canal: "Fazt Code",
+    texto:
+      "En este ejemplo práctico de Nextjs aprenderemos a crear una aplicación simple que nos podrá servir como portafolio para mostrar nuestros trabajos de desarrollo web y también para practicar también conceptos de HTML, CSS, Javascript, React, Bootstrap, y sobre todo Next.js.",
+    categoria: "NextJS",
+    etiqueta: "",
+  },
+  {
     idVideo: "avGmwUzGJKA",
     imagen: "hq720",
-    titulo:
-      "Curso completo para aprender Next.JS",
+    titulo: "Curso completo para aprender Next.JS",
     canal: "Vida MRR - Programacion web",
     texto:
       "En este curso gratuito de Nextjs vamos a aprender a crear una tienda online usando los conceptos más importantes para el manejo de rutas, el data fetching y el manejo del estado con Nextjs. ",
@@ -447,26 +467,52 @@ const listaVideos = [
   {
     idVideo: "pFT8wD2uRSE",
     imagen: "hq720",
-    titulo:
-      "CURSO de NEXT.JS 12 desde CERO y con dos proyectos prácticos",
+    titulo: "CURSO de NEXT.JS 12 desde CERO y con dos proyectos prácticos",
     canal: "midulive",
-    texto:
-      "Creamos un proyecto desde cero con Next.js",
+    texto: "Creamos un proyecto desde cero con Next.js",
     categoria: "NextJS",
     etiqueta: "",
   },
   {
     idVideo: "Tn6QYliFBcs",
     imagen: "hq720",
-    titulo:
-      "Nextjs Curso Práctico | Framework de SSR basado en React",
+    titulo: "Nextjs Curso Práctico | Framework de SSR basado en React",
     canal: "Fazt Code",
     texto:
       "En este video vamos a aprender acerca de Next.js, un framework de React que nos permite poder crear aplicaciones web dinamicas combinando conceptos del backend y frontend de una manera integrada usando Server Side Rendering(SSR).",
     categoria: "NextJS",
     etiqueta: "",
   },
-  /**Vercel*/ 
+  /**Vercel*/  
+  {
+    idVideo: "hfniolUUP5Y",
+    imagen: "hq720",
+    titulo: "BUILD AND SELL an API with Next.js, Vercel, and RapidAPI",
+    canal: "James Q Quick",
+    texto:
+      "You can make money from selling APIs! In this video, we’ll use Next.js and Prisma to create a Serverless API that is hosted on Vercel. We’ll then register this API in RapidAPI so that you can charge for access to your API.",
+    categoria: "Vercel",
+    etiqueta: "",
+  },
+  {
+    idVideo: "CmZEJcDCBxM",
+    imagen: "hq720",
+    titulo: "Entrevista a GUILLERMO RAUCH, CEO de Vercel ▲",
+    canal: "midudev",
+    texto: "Entrevista a GUILLERMO RAUCH, CEO de Vercel ",
+    categoria: "Vercel",
+    etiqueta: "",
+  },
+  {
+    idVideo: "C_Vc23Ieusg",
+    imagen: "hq720",
+    titulo: "#53 Elige tu propia aventura con Guillermo Rauch (Founder Vercel)",
+    canal: "Elige Tu Propia Aventura",
+    texto:
+      "El salto cuántico de @vercel fue en octubre de 2016. Nos dimos cuenta de que no era suficiente resolver el problema del deployment, sino que nos faltaba la herramienta de desarrollo. Ahí fue que decidimos crear @nextjs",
+    categoria: "Vercel",
+    etiqueta: "",
+  },
   /**TypeScript */
   {
     idVideo: "IJ_mpJRaHmc",
@@ -512,8 +558,7 @@ const listaVideos = [
   {
     idVideo: "XZTt1NFDnDw",
     imagen: "hq720",
-    titulo:
-      "20 Proyectos completos con CSS",
+    titulo: "20 Proyectos completos con CSS",
     canal: "Vida MRR - Programacion web",
     texto:
       "20 proyectos completos con CSS, para que puedas practicar más del lenguaje y aprendas algunos trucos sobre animaciones, 3D, layouts, selectores avanzados y más.",
@@ -555,7 +600,8 @@ const listaVideos = [
   {
     idVideo: "uobBpp0qUuY",
     imagen: "hq720",
-    titulo: "5 proyectos de React 😎 que todos los desarrolladores junior deberían construir + Consejos",
+    titulo:
+      "5 proyectos de React 😎 que todos los desarrolladores junior deberían construir + Consejos",
     canal: "Tzuzul Code",
     texto:
       "El top 5 de los proyectos que puedes realizar que te ayudaran a mejorar tus habilidades en programación y sobre todo en React 😎",
