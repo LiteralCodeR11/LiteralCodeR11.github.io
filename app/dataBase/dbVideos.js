@@ -307,12 +307,31 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "WXW5Hw2wn3Q",
+    imagen: "hq720",
+    titulo: "Git & GitHub Course",
+    canal: "shareCodeCamp",
+    texto: "",
+    categoria: "Git",
+    etiqueta: "",
+  },
+  {
     idVideo: "OZDKNqMXSxA",
     imagen: "hq720",
     titulo: "Cómo crear tu página GRATIS con GITHUB PAGES",
     canal: "s4vitar",
     texto:
       "¿Quieres empezar a crear contenido con coste cero?, en este vídeo te explico cómo crear tu página web pública gratis con GitHub Pages.",
+    categoria: "Git",
+    etiqueta: "",
+  },
+  {
+    idVideo: "f7xZivqLZxc",
+    imagen: "hq720",
+    titulo: "You are Using GitHub WRONG!",
+    canal: "Chris Titus Tech",
+    texto:
+      "When I first started using GitHub I did everything wrong and many users are making those same mistakes. This will make you faster and a better GitHub user.",
     categoria: "Git",
     etiqueta: "",
   },
@@ -483,7 +502,7 @@ const listaVideos = [
     categoria: "NextJS",
     etiqueta: "",
   },
-  /**Vercel*/  
+  /**Vercel*/
   {
     idVideo: "hfniolUUP5Y",
     imagen: "hq720",
