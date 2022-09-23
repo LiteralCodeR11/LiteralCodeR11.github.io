@@ -386,7 +386,6 @@ const dbRutas = [
             contents:
               "Un curso que analiza todos los aspectos del desarrollo moderno de aplicaciones web progresivas.",
           },
-          
         ],
       },
       {
@@ -406,7 +405,8 @@ const dbRutas = [
         contents: "",
         cursos: [
           {
-            linkHref: "https://www.FreeCodeCamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/",
+            linkHref:
+              "https://www.FreeCodeCamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/",
             targetType: "_blank",
             imgSrc: "./public/images/app/css.jpg",
             titleH2: "Aprende HTML y CSS - Curso Desde Cero",
@@ -414,9 +414,10 @@ const dbRutas = [
             contents:
               "Breve introducción a los fundamentos de los lenguajes HTML y CSS con enlace al video curso de 5 horas en YouTube sobre HTML y CSS.",
           },
-          
+
           {
-            linkHref: "https://www.FreeCodeCamp.org/espanol/news/aprende-javascript-curso-js-gratis-para-principiantes/",
+            linkHref:
+              "https://www.FreeCodeCamp.org/espanol/news/aprende-javascript-curso-js-gratis-para-principiantes/",
             targetType: "_blank",
             imgSrc: "./public/images/app/javascript.jpg",
             titleH2: "Aprende JavaScript: Curso JS gratis para principiantes",
@@ -425,16 +426,18 @@ const dbRutas = [
               "Listado de recursos en línea gratuitos donde puedas comenzar a aprender JavaScript.",
           },
           {
-            linkHref: "https://www.FreeCodeCamp.org/learn/javascript-algorithms-and-data-structures/",
+            linkHref:
+              "https://www.FreeCodeCamp.org/learn/javascript-algorithms-and-data-structures/",
             targetType: "_blank",
             imgSrc: "./public/images/app/javascript.jpg",
             titleH2: "JavaScript Algorithms and Data Structures",
             titleH3: "FreeCodeCamp",
             contents:
               "Aprenderás conceptos fundamentales de programación en JavaScript. Estructuras de datos básicas como números y cadenas, matrices, objetos, funciones, bucles, declaraciones if/else y más.",
-          },          
+          },
           {
-            linkHref: "https://www.FreeCodeCamp.org/espanol/news/40-proyectos-de-javascript-para-principiantes-ideas-faciles-para-empezar-a-codificar-en-js/",
+            linkHref:
+              "https://www.FreeCodeCamp.org/espanol/news/40-proyectos-de-javascript-para-principiantes-ideas-faciles-para-empezar-a-codificar-en-js/",
             targetType: "_blank",
             imgSrc: "./public/images/app/javascript.jpg",
             titleH2: "40 proyectos de JavaScript para principiantes",
@@ -443,10 +446,12 @@ const dbRutas = [
               "Ideas fáciles para empezar a codificar en JS. Lista de 40 tutoriales de proyectos en JavaScript Vainilla, React y TypeScript.",
           },
           {
-            linkHref: "https://www.FreeCodeCamp.org/espanol/news/comandos-basicos-de-git-como-usar-git-en-un-proyecto-real/",
+            linkHref:
+              "https://www.FreeCodeCamp.org/espanol/news/comandos-basicos-de-git-como-usar-git-en-un-proyecto-real/",
             targetType: "_blank",
             imgSrc: "./public/images/app/github.jpg",
-            titleH2: "Comandos básicos de Git: Cómo usar Git en un proyecto real",
+            titleH2:
+              "Comandos básicos de Git: Cómo usar Git en un proyecto real",
             titleH3: "FreeCodeCamp",
             contents:
               "Tutorial sobre control de versiones, cómo funcionan Git y GitHub, y cómo configurar una cuenta GitHub.",
@@ -482,16 +487,6 @@ const dbRutas = [
     contents: "",
     group: [
       {
-        linkHref: "https://html.spec.whatwg.org/multipage/",
-        targetType: "_blank",
-        imgSrc: "./public/images/app/html.jpg",
-        titleH2: "HTML",
-        titleH3: "WHATWG",
-        contents:
-          "La familiaridad con los conceptos básicos de DOM es necesaria para una comprensión completa de algunas de las partes más técnicas de esta especificación.",
-        cursos: [],
-      },
-      {
         linkHref: "https://developer.mozilla.org/en-US/docs/Web/HTML",
         targetType: "_blank",
         imgSrc: "./public/images/app/html.jpg",
@@ -499,16 +494,6 @@ const dbRutas = [
         titleH3: "MDN Web Docs",
         contents:
           "Referencia HTML: Hipertexto se refiere a enlaces que conectan páginas web entre sí, ya sea dentro de un solo sitio web o entre sitios web. Los enlaces son un aspecto fundamental de la Web.",
-        cursos: [],
-      },
-      {
-        linkHref: "https://www.w3.org/TR/CSS/",
-        targetType: "_blank",
-        imgSrc: "./public/images/app/css.jpg",
-        titleH2: "CSS",
-        titleH3: "W3.org",
-        contents:
-          "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS) a partir de 2021.",
         cursos: [],
       },
       {
@@ -520,16 +505,15 @@ const dbRutas = [
         contents:
           "Todas las propiedades CSS estándar, pseudoclases, pseudoelementos, tipos de datos, notaciones funcionales y reglas at. Conceptos clave de CSS y una lista de selectores organizados por tipo. Breve referencia de DOM-CSS/CSSOM.",
         cursos: [],
-      },
+      }, 
       {
-        linkHref:
-          "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+        linkHref: "https://developer.mozilla.org/es/docs/Web/JavaScript",
         targetType: "_blank",
         imgSrc: "./public/images/app/javascript.jpg",
         titleH2: "JavaScript",
-        titleH3: "ECMA-262",
+        titleH3: "MDN Web Docs",
         contents:
-          "Información exhaustiva, detallada y formal sobre JavaScript. Difícil de entender al principio, sin embargo, es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
+          "La documentación en MDN está basada enteramente en las últimas versiones preliminares de ECMA-262 y ECMA-402.",
         cursos: [],
       },
       {
@@ -590,6 +574,57 @@ const dbRutas = [
         titleH3: "Next.js | Open-Source  ",
         contents:
           "Next.js es un marco de desarrollo web de código abierto creado por Vercel que permite aplicaciones web basadas en React con representación del lado del servidor y generación de sitios web estáticos.",
+        cursos: [],
+      },      
+      {
+        linkHref: "https://vercel.com/docs",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/vercel.jpg",
+        titleH2: "Vercel",
+        titleH3: "Fácil | Universal | Accesible",
+        contents:
+          "Vercel es la plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad que los innovadores necesitan para crear en el momento de la inspiración.",
+        cursos: [],
+      }, 
+      {
+        linkHref: "https://www.typescriptlang.org/es/docs/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/typescript.jpg",
+        titleH2: "TypeScript",
+        titleH3: "Sintaxis adicional para JS",
+        contents:
+          "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
+        cursos: [],
+      }, 
+      {
+        linkHref: "https://html.spec.whatwg.org/multipage/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/html.jpg",
+        titleH2: "HTML",
+        titleH3: "WHATWG",
+        contents:
+          "La familiaridad con los conceptos básicos de DOM es necesaria para una comprensión completa de algunas de las partes más técnicas de esta especificación.",
+        cursos: [],
+      },
+      {
+        linkHref: "https://www.w3.org/TR/CSS/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/css.jpg",
+        titleH2: "CSS",
+        titleH3: "W3.org",
+        contents:
+          "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS) a partir de 2021.",
+        cursos: [],
+      },
+      {
+        linkHref:
+          "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/javascript.jpg",
+        titleH2: "JavaScript",
+        titleH3: "ECMA-262",
+        contents:
+          "Información exhaustiva, detallada y formal sobre JavaScript. Difícil de entender al principio, sin embargo, es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
         cursos: [],
       },
     ],
@@ -770,15 +805,15 @@ const dbRutas = [
         imgSrc: "./public/images/app/css-tricks.jpg",
         titleH2: "CSS-Tricks",
         titleH3: "Diseño y Desarrollo Web",
-        contents: "Artículos diarios sobre CSS, HTML, JavaScript y todo lo relacionado con el diseño y desarrollo web.",
+        contents:
+          "Artículos diarios sobre CSS, HTML, JavaScript y todo lo relacionado con el diseño y desarrollo web.",
       },
       {
         linkHref: "https://smalldev.tools/",
         targetType: "_blank",
         imgSrc: "./public/images/app/small-dev-tools.jpg",
         titleH2: "Small Dev Tools",
-        titleH3:
-          "Herramientas GRATUITAS para desarrolladores",
+        titleH3: "Herramientas GRATUITAS para desarrolladores",
         contents:
           "Codificadores y descodificadores, formateadores de HTML, CSS y Javascript, minificadores y mucho más.",
       },
@@ -938,18 +973,16 @@ const dbRutas = [
       {
         linkHref: "https://twitter.com/freddier",
         targetType: "_blank",
-        imgSrc:
-          "public/images/otros/Freddy-Vega.jpg",
+        imgSrc: "public/images/otros/Freddy-Vega.jpg",
         titleH2: "Freddy Vega",
         titleH3: "Platzi",
         contents:
           "<a href='https://freddyvega.com/john-freddy-vega/' target='_blank'>Web</a> <br>Fundador y CEO de Platzi, John Freddy Vega es uno de los 20 latinos más influyentes de la industria de la tecnología, de acuerdo con el sitio web CNET.",
-      },      
+      },
       {
         linkHref: "https://twitter.com/rauchg",
         targetType: "_blank",
-        imgSrc:
-          "public/images/otros/Guillermo-Rauch.jpg",
+        imgSrc: "public/images/otros/Guillermo-Rauch.jpg",
         titleH2: "Guillermo Rauch",
         titleH3: "Vercel CEO",
         contents:
@@ -958,8 +991,7 @@ const dbRutas = [
       {
         linkHref: "https://www.youtube.com/c/HolaMundoDev",
         targetType: "_blank",
-        imgSrc:
-          "public/images/otros/Nicolas-Schurmann.jpg",
+        imgSrc: "public/images/otros/Nicolas-Schurmann.jpg",
         titleH2: "Nicolas Schurmann",
         titleH3: "Hola Mundo",
         contents:
@@ -1008,8 +1040,7 @@ const dbRutas = [
       {
         linkHref: "https://www.joshwcomeau.com/",
         targetType: "_blank",
-        imgSrc:
-          "public/images/otros/josh-comeau.jpg",
+        imgSrc: "public/images/otros/josh-comeau.jpg",
         titleH2: "Josh Comeau",
         titleH3: "Josh W. Comeau",
         contents:
@@ -1080,7 +1111,7 @@ const dbRutas = [
         titleH3: "Video Tutoriales",
         contents: "Aprende React",
         cursos: [],
-      },      
+      },
     ],
   },
   {
