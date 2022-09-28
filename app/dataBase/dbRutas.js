@@ -10,6 +10,7 @@ const dbRutas = [
     contents: "",
     group: [
       {
+        codgrupo: "cursos-w3schools",
         linkHref: "w3schools.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/w3schools.jpg",
@@ -56,6 +57,7 @@ const dbRutas = [
         ],
       },
       {
+        codgrupo: "cursos-mdn",
         linkHref: "mdn.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/mdn-web-docs.jpg",
@@ -141,6 +143,7 @@ const dbRutas = [
         ],
       },
       {
+        codgrupo: "cursos-microsoft",
         linkHref: "microsoft.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/microsoft.jpg",
@@ -182,6 +185,92 @@ const dbRutas = [
         ],
       },
       {
+        codgrupo: "cursos-google",
+        linkHref: "web-dev.html",
+        targetType: "",
+        imgSrc: "./public/images/sitios-web/web-dev-google-developers.jpg",
+        titleH2: "Web Dev | Google Developers",
+        titleH3: "",
+        contents: "",
+        cursos: [
+          {
+            linkHref: "https://web.dev/learn/forms/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/wev-dev-formularios.jpg",
+            titleH2: "Aprender formularios",
+            titleH3: "Web Dev | Google Developers",
+            contents:
+              "Un curso sobre formularios HTML para ayudarlo a mejorar su experiencia como desarrollador web.",
+          },
+          {
+            linkHref: "https://web.dev/learn/css/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/wev-dev-fundamentos-css.jpg",
+            titleH2: "Aprender CSS",
+            titleH3: "Web Dev | Google Developers",
+            contents:
+              "Un curso permanente de CSS y un modelo para mejorar sus conocimientos sobre el diseño de páginas web.",
+          },
+          {
+            linkHref: "https://web.dev/learn/design/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/wev-dev-responsive-design.jpg",
+            titleH2: "Aprende Responsive Design",
+            titleH3: "Web Dev | Google Developers",
+            contents:
+              "Un curso que explora todos los aspectos del diseño responsive. Aprenda a crear sitios que se vean geniales y funcionen bien para todositioss.",
+          },
+          {
+            linkHref: "https://web.dev/learn/pwa/",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/wev-dev-progressive-web-apps.jpg",
+            titleH2: "Aprende PWA (Progressive Web Apps)",
+            titleH3: "Web Dev | Google Developers",
+            contents:
+              "Un curso que analiza todos los aspectos del desarrollo moderno de aplicaciones web progresivas.",
+          },
+        ],
+      },
+      {
+        codgrupo: "cursos-codecademy",
+        linkHref: "codecademy.html",
+        targetType: "",
+        imgSrc: "./public/images/sitios-web/codecademy.jpg",
+        titleH2: "Codecademy",
+        titleH3: "",
+        contents: "",
+        cursos: [
+          {
+            linkHref: "https://www.codecademy.com/learn/learn-html",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/html.jpg",
+            titleH2: "Learn HTML",
+            titleH3: "Codecademy",
+            contents:
+              "Aprenda los conceptos básicos de HTML5 y comience a crear y editar páginas web.",
+          },
+          {
+            linkHref: "https://www.codecademy.com/learn/learn-css",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/css.jpg",
+            titleH2: "Learn CSS",
+            titleH3: "Codecademy",
+            contents: "Aprenda a diseñar y organizar visualmente HTML con CSS.",
+          },
+          {
+            linkHref:
+              "https://www.codecademy.com/learn/introduction-to-javascript",
+            targetType: "_blank",
+            imgSrc: "./public/images/app/javascript.jpg",
+            titleH2: "Learn JavaScript",
+            titleH3: "Codecademy",
+            contents:
+              "Aprenda los fundamentos de JavaScript que necesitará para el desarrollo front-end o back-end.",
+          },
+        ],
+      },
+      {
+        codgrupo: "cursos-w3c",
         linkHref: "w3c.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/w3c.jpg",
@@ -246,6 +335,7 @@ const dbRutas = [
         ],
       },
       {
+        codgrupo: "cursos-platzi",
         linkHref: "https://platzi.com/cursos/programacion-basica-nuevo/",
         targetType: "_blank",
         imgSrc: "./public/images/sitios-web/platzi.jpg",
@@ -266,137 +356,7 @@ const dbRutas = [
         ],
       },
       {
-        linkHref: "codecademy.html",
-        targetType: "",
-        imgSrc: "./public/images/sitios-web/codecademy.jpg",
-        titleH2: "Codecademy",
-        titleH3: "",
-        contents: "",
-        cursos: [
-          {
-            linkHref: "https://www.codecademy.com/learn/learn-html",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/html.jpg",
-            titleH2: "Learn HTML",
-            titleH3: "Codecademy",
-            contents:
-              "Aprenda los conceptos básicos de HTML5 y comience a crear y editar páginas web.",
-          },
-          {
-            linkHref: "https://www.codecademy.com/learn/learn-css",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/css.jpg",
-            titleH2: "Learn CSS",
-            titleH3: "Codecademy",
-            contents: "Aprenda a diseñar y organizar visualmente HTML con CSS.",
-          },
-          {
-            linkHref:
-              "https://www.codecademy.com/learn/introduction-to-javascript",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/javascript.jpg",
-            titleH2: "Learn JavaScript",
-            titleH3: "Codecademy",
-            contents:
-              "Aprenda los fundamentos de JavaScript que necesitará para el desarrollo front-end o back-end.",
-          },
-        ],
-      },
-      {
-        linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
-        targetType: "_blank",
-        imgSrc: "./public/images/sitios-web/egghead-io.jpg",
-        titleH2: "egghead.io",
-        titleH3: "",
-        contents: "",
-        cursos: [
-          {
-            linkHref:
-              "https://egghead.io/courses/the-beginner-s-guide-to-react",
-            targetType: "_blank",
-            imgSrc: "./public/images/sitios-web/egghead-io.jpg",
-            titleH2: "The Beginner's Guide to React",
-            titleH3: "egghead.io",
-            contents:
-              "React got that name for a reason. It’s a component-based JavaScript library that renders smartly and can seriously simplify your work. This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React right away.",
-          },
-        ],
-      },
-      {
-        linkHref:
-          "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
-        targetType: "_blank",
-        imgSrc: "./public/images/sitios-web/cs50-harvard.jpg",
-        titleH2: "CS50 Harvard.Edu" /**"https://cs50.harvard.edu/x/2022/" */,
-        titleH3: "",
-        contents: "",
-        cursos: [
-          {
-            linkHref: "",
-            targetType: "",
-            imgSrc: "",
-            titleH2: "Introducción a la informática de CS50",
-            titleH3: "CS50 Harvard.edu",
-            contents:
-              "Los temas incluyen abstracción, algoritmos, estructuras de datos, encapsulación, administración de recursos, seguridad, ingeniería de software y desarrollo web. Los lenguajes incluyen C, Python, SQL y JavaScript, además de CSS y HTML.",
-          },
-        ],
-      },
-      {
-        linkHref: "web-dev.html",
-        targetType: "",
-        imgSrc: "./public/images/sitios-web/web-dev-google-developers.jpg",
-        titleH2: "Web Dev | Google Developers",
-        titleH3: "",
-        contents: "",
-        cursos: [
-          {
-            linkHref: "https://web.dev/learn/forms/",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/wev-dev-formularios.jpg",
-            titleH2: "Aprender formularios",
-            titleH3: "Web Dev | Google Developers",
-            contents:
-              "Un curso sobre formularios HTML para ayudarlo a mejorar su experiencia como desarrollador web.",
-          },
-          {
-            linkHref: "https://web.dev/learn/css/",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/wev-dev-fundamentos-css.jpg",
-            titleH2: "Aprender CSS",
-            titleH3: "Web Dev | Google Developers",
-            contents:
-              "Un curso permanente de CSS y un modelo para mejorar sus conocimientos sobre el diseño de páginas web.",
-          },
-          {
-            linkHref: "https://web.dev/learn/design/",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/wev-dev-responsive-design.jpg",
-            titleH2: "Aprende Responsive Design",
-            titleH3: "Web Dev | Google Developers",
-            contents:
-              "Un curso que explora todos los aspectos del diseño responsive. Aprenda a crear sitios que se vean geniales y funcionen bien para todositioss.",
-          },
-          {
-            linkHref: "https://web.dev/learn/pwa/",
-            targetType: "_blank",
-            imgSrc: "./public/images/app/wev-dev-progressive-web-apps.jpg",
-            titleH2: "Aprende PWA (Progressive Web Apps)",
-            titleH3: "Web Dev | Google Developers",
-            contents:
-              "Un curso que analiza todos los aspectos del desarrollo moderno de aplicaciones web progresivas.",
-          },
-        ],
-      },
-      {
-        linkHref: "https://es.javascript.info/",
-        targetType: "_black",
-        imgSrc: "./public/images/sitios-web/javascript-info.jpg",
-        titleH2: "JavaScript.info | Ilya Kantor",
-        titleH3: "",
-        contents: "",
-      },
-      {
+        codgrupo: "cursos-freecodecamp",  
         linkHref: "freecodecamp.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/freecodecamp.jpg",
@@ -458,7 +418,61 @@ const dbRutas = [
           },
         ],
       },
+      
       {
+        codgrupo: "cursos-harvard",
+        linkHref:
+          "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+        targetType: "_blank",
+        imgSrc: "./public/images/sitios-web/cs50-harvard.jpg",
+        titleH2: "CS50 Harvard.Edu" /**"https://cs50.harvard.edu/x/2022/" */,
+        titleH3: "",
+        contents: "",
+        cursos: [
+          {
+            linkHref: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+            targetType: "",
+            imgSrc: "",
+            titleH2: "Introducción a la informática de CS50",
+            titleH3: "CS50 Harvard.edu",
+            contents:
+              "Los temas incluyen abstracción, algoritmos, estructuras de datos, encapsulación, administración de recursos, seguridad, ingeniería de software y desarrollo web. Los lenguajes incluyen C, Python, SQL y JavaScript, además de CSS y HTML.",
+          },
+        ],
+      },
+      {
+        codgrupo: "cursos-egghead",
+        linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
+        targetType: "_blank",
+        imgSrc: "./public/images/sitios-web/egghead-io.jpg",
+        titleH2: "egghead.io",
+        titleH3: "",
+        contents: "",
+        cursos: [
+          {
+            linkHref:
+              "https://egghead.io/courses/the-beginner-s-guide-to-react",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/egghead-io.jpg",
+            titleH2: "The Beginner's Guide to React",
+            titleH3: "egghead.io",
+            contents:
+              "React got that name for a reason. It’s a component-based JavaScript library that renders smartly and can seriously simplify your work. This course is for React newbies and anyone looking to build a solid foundation. It’s designed to teach you everything you need to start building web applications in React right away.",
+          },
+        ],
+      },
+      {
+        codgrupo: "cursos-javascript-info",
+        linkHref: "https://es.javascript.info/",
+        targetType: "_black",
+        imgSrc: "./public/images/sitios-web/javascript-info.jpg",
+        titleH2: "JavaScript.info | Ilya Kantor",
+        titleH3: "",
+        contents: "",
+      },
+      
+      {
+        codgrupo: "cursos-interneting-is-hard",
         linkHref: "https://www.internetingishard.com/",
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/internetingishard.jpg",
@@ -467,6 +481,7 @@ const dbRutas = [
         contents: "",
       },
       {
+        codgrupo: "cursos-manz-dev",
         linkHref: "https://manz.dev/como-empezar/",
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/manz-dev.jpg",
@@ -689,6 +704,7 @@ const dbRutas = [
     ],
     group: [
       {
+        codgrupo: "visual-studio-code",
         linkHref: "visual-studio-code.html",
         targetType: "",
         imgSrc: "./public/images/app/visual-studio-code.jpg",
