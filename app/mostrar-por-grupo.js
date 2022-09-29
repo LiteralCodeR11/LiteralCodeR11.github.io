@@ -21,15 +21,15 @@ function innerHTMLTecnologia() {
     doc.innerHTML = `${result[0].group.map(createCardsG).join("")}`;
   } else if (doc) {
     let cod = document.querySelector(".cards").classList[1];
-    let objCursos = Object.values(result[0].group).filter((f) => f.codgrupo === cod )
+    let objCursos = Object.values(result[0].group)
+      .filter((f) => f.codgrupo === cod);
     doc.innerHTML = `${objCursos[0].cursos.map(createCardsG).join("")}`;
-  } 
-  
+  }
+
   /* else if (doc) {
     let cod = document.querySelector(".cards").classList[2];
     doc.innerHTML = `${result[0].group[cod].cursos.map(createCardsG).join("")}`;
-  } */ 
-
+  }  */
 
   return { idCategoria, classCategoria };
 }

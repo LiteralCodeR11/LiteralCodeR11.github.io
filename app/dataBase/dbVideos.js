@@ -256,6 +256,16 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "0t-Le4kdaMg",
+    imagen: "hq720",
+    titulo: "Import y Export en Javascript (ES Modules) - Explicación",
+    canal: "Fazt Code",
+    texto:
+      "Este video es una explicación sencilla para iniciantes acerca de los módulos de Javascript, la características de Ecmascript 6+ que nos permite exportar e importar propiedades y funcionalidades de archivos de Javascript.",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
     idVideo: "GUTt0qKUDyU",
     imagen: "hq720",
     titulo: "CONSEJO: Estas usando mal los Event Listeners en Javascript !!!",

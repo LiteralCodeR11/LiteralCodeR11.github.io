@@ -356,7 +356,7 @@ const dbRutas = [
         ],
       },
       {
-        codgrupo: "cursos-freecodecamp",  
+        codgrupo: "cursos-freecodecamp",
         linkHref: "freecodecamp.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/freecodecamp.jpg",
@@ -418,7 +418,7 @@ const dbRutas = [
           },
         ],
       },
-      
+
       {
         codgrupo: "cursos-harvard",
         linkHref:
@@ -430,7 +430,8 @@ const dbRutas = [
         contents: "",
         cursos: [
           {
-            linkHref: "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+            linkHref:
+              "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
             targetType: "",
             imgSrc: "",
             titleH2: "Introducción a la informática de CS50",
@@ -470,7 +471,6 @@ const dbRutas = [
         titleH3: "",
         contents: "",
       },
-      
       {
         codgrupo: "cursos-interneting-is-hard",
         linkHref: "https://www.internetingishard.com/",
@@ -520,7 +520,7 @@ const dbRutas = [
         contents:
           "Todas las propiedades CSS estándar, pseudoclases, pseudoelementos, tipos de datos, notaciones funcionales y reglas at. Conceptos clave de CSS y una lista de selectores organizados por tipo. Breve referencia de DOM-CSS/CSSOM.",
         cursos: [],
-      }, 
+      },
       {
         linkHref: "https://developer.mozilla.org/es/docs/Web/JavaScript",
         targetType: "_blank",
@@ -590,7 +590,7 @@ const dbRutas = [
         contents:
           "Next.js es un marco de desarrollo web de código abierto creado por Vercel que permite aplicaciones web basadas en React con representación del lado del servidor y generación de sitios web estáticos.",
         cursos: [],
-      },      
+      },
       {
         linkHref: "https://vercel.com/docs",
         targetType: "_blank",
@@ -600,7 +600,7 @@ const dbRutas = [
         contents:
           "Vercel es la plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad que los innovadores necesitan para crear en el momento de la inspiración.",
         cursos: [],
-      }, 
+      },
       {
         linkHref: "https://www.typescriptlang.org/es/docs/",
         targetType: "_blank",
@@ -610,7 +610,7 @@ const dbRutas = [
         contents:
           "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
         cursos: [],
-      }, 
+      },
       {
         linkHref: "https://html.spec.whatwg.org/multipage/",
         targetType: "_blank",
