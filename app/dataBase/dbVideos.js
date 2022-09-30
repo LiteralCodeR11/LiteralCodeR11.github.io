@@ -276,6 +276,26 @@ const listaVideos = [
     etiqueta: "",
   },
   {
+    idVideo: "KE2xRDM4Amg",
+    imagen: "hq720",
+    titulo: "¡Crea tus PROPIAS ETIQUETAS HTML sin FRAMEWORKS!",
+    canal: "ManzDev",
+    texto:
+      "¿Sabías que puedes crear tus propias etiquetas HTML sin necesidad de utilizar frameworks como Vue, React, Angular o Svelte?",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
+    idVideo: "XF1_MlZ5l6M",
+    imagen: "hq720",
+    titulo: "Learn JavaScript Event Listeners In 18 Minutes",
+    canal: "Web Dev Simplified",
+    texto:
+      "JavaScript events are one of the most important topics for you to learn. In this video I will dive into everything you need to know about JavaScript events to make sure you completely understand how they work.",
+    categoria: "JavaScript",
+    etiqueta: "",
+  },
+  {
     idVideo: "DG4obitDvUA",
     imagen: "hq720",
     titulo: "JavaScript Template Literals: JSON to HTML",
