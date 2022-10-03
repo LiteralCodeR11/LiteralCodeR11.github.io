@@ -8,31 +8,40 @@
     <title>Sitios Web</title>
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/site-map.css">
 </head>
 
-<body id="sitios-web" class="inicio">
+<body>
 
     <div id="root">
         <header id="menuAppHeader" class="header"></header>
+        <div class="menu-sitemap">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#">Mapa del Sitio</a></li>
+                    <li><a href="#">Directorio</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
         <main class="container">
             <aside class="aside-default">
-                <img class="img-50" src="/public/images/sitios-web.png" alt="Sitios Web">
-                <h1>Sitios Web</h1>
-                <p class="informativo">Domina los principales lenguajes que todo desarrollador web necesita saber.
-                    Estos son los sitios web más relavantes para un aprendizaje activo.</p>
+                <div id="categorias"></div>
             </aside>
 
             <section class="section-default">
                 <article>
-                    <a href="index.html" class="migas">>>Todas las categorías</a>
-                    <div id="card-container" class="cards sitios-web"></div>
+                    <div id="menu-section"></div>
+                    <div id="grupos"></div>
                 </article>
             </section>
         </main>
         <footer id="footer-section1"></footer>
     </div>
-    <script src="/app/menu.js"></script>  
-    <script src="/app/mostrar-por-grupo.js" type="module"></script>
+    <script src="/app/menu.js"></script>
+    <script src="/app/mapa/index.js" type="module"></script>
+    
+    
 </body>
 
 </html>

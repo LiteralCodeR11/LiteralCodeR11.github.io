@@ -26,8 +26,9 @@ function crearEncabezado() {
       </div>
       <ul>
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="proyecto-code-r11.html">Code R11</a></li>
-          <li><a href="Blog.html">Blog</a></li>
+          <li><a href="sitemap.html">Mapa</a></li>
+          <li><a href="proyecto-code-r11.html">Nosotros</a></li>
+          
       </ul>
     </nav>`;
 }

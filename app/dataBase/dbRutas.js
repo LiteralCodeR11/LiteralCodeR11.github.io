@@ -1,4 +1,4 @@
-const dbRutas = [
+export const dbRutas = [
   {
     id: "1",
     category: "sitios-web",
@@ -446,7 +446,7 @@ const dbRutas = [
         linkHref: "https://egghead.io/courses/the-beginner-s-guide-to-react",
         targetType: "_blank",
         imgSrc: "./public/images/sitios-web/egghead-io.jpg",
-        titleH2: "egghead.io",
+        titleH2: "Egghead.io",
         titleH3: "",
         contents: "",
         cursos: [
@@ -1076,7 +1076,7 @@ const dbRutas = [
   {
     id: "8",
     category: "videos-tutoriales",
-    linkHref: "videos.html",
+    linkHref: "videos-categorias.html",
     targetType: "",
     imgSrc: "./public/images/video-tutoriales.png",
     titleH2: "Tutoriales y Cursos en Youtube",

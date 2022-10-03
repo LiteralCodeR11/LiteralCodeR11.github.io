@@ -1,4 +1,6 @@
-function createCards(cCards) {
+import { dbRutas } from "./dataBase/dbRutas.js";
+
+export function createCards(cCards) {
   return `
     <div class="cards-item left">
         <a href="${cCards.linkHref}">
@@ -12,7 +14,7 @@ function createCards(cCards) {
     `;
 }
 
-function mostrarCategorias() {
+export function mostrarCategorias() {
   let doc = document.getElementById("card-container");
 
   doc.innerHTML = `${dbRutas.map(createCards).join("")}`;

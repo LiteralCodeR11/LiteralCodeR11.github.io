@@ -1,36 +1,80 @@
-const lista = document.getElementById("lista");
-const categoria = document.getElementsByTagName("body")[0];
+import { listaVideos } from "../app/dataBase/dbVideos.js";
+import { MenuVideos, limpiarSectionGrupos } from "../app/mapa/mapaSitio.js";
 
-let targetVideo = "Todos";
+function crearMenuVideos() {
+  const idLista = document.getElementById("lista");
+  const idGrupos = document.getElementById("grupos");
+  const categoriaVideo = Object.values(listaVideos);
 
-lista.addEventListener("click", (e) => {
-  if (e.target && e.target.tagName === "A") {
-    targetVideo = e.target.innerText;
-    filtarVideos();
-  }
-});
+  idLista.innerHTML = `
+    <div>
+      <ul id="idMenuVideos" class="menuVideos">  
+        <li>Todos</li>
+        ${MenuVideos()}
+      </ul>
+    </div>`;
+  eventosMenuVideos(idLista, idGrupos);
+  crearNivel1_CategoriasVideos(idGrupos, categoriaVideo);
+}
 
-function filtarVideos() {
-  console.log("filtar:" + targetVideo);
+function eventosMenuVideos(idLista, idGrupos) {
+  let targetVideo = "Todos";
+
+  idLista.addEventListener("click", (e) => {
+    console.log(e.target.innerText);
+    if (e.target && e.target.tagName === "LI") {
+      let filtroCategoriaVideos = listaVideos.filter(
+        (f) => f.categoria_videos === e.target.innerText
+      );
+      limpiarSectionGrupos();
+      if (e.target.innerText === "Todos") {
+        crearNivel1_CategoriasVideos(idGrupos, listaVideos);
+      } else {
+        crearNivel1_CategoriasVideos(idGrupos, filtroCategoriaVideos);
+      }
+    }
+  });
+}
+
+function crearNivel1_CategoriasVideos(idGrupos, categoriaVideo) {
+  console.log("crearNivel1_CategoriasVideos: ok");
+  idGrupos.innerHTML += categoriaVideo
+    .map(
+      (m) =>
+        `         
+          <h2>${m.categoria_videos}</h2>
+          <hr>        
+          <div id="videoItem" class="contenedor-videos">            
+            ${crearLista(m.grupo_videos)}
+          </div>
+    `
+    )
+    .join("");
+}
+
+function filtrarVideos(targetVideo) {
+  console.log("filtrar:" + targetVideo);
   const videoItem = document.getElementById("videoItem");
   if (targetVideo == "Todos") {
-    videoItem.innerHTML = `${listaVideos.map(crearLista).join("")}`;
+    console.log("ok");
+    videoItem.innerHTML = `${listaVideos[0].map(crearLista).join("")}`;
   } else {
     const result = listaVideos.filter((x) => x.categoria == targetVideo);
     videoItem.innerHTML = `${result.map(crearLista).join("")}`;
   }
 }
 
-function crearLista(registro) {
-  return `
+function crearLista(obj) {
+  return Object.values(obj).map(
+    (registro) => `  
     <div class="ficha-video-item">
         <figure>
             <img onclick='crearVideos("https://www.youtube.com/embed/${
               registro.idVideo
             }")'
                 src="https://i.ytimg.com/vi/${registro.idVideo}/${
-    registro.imagen
-  }.jpg" 
+      registro.imagen
+    }.jpg" 
                 alt="${registro.titulo}"  
                 width="${registro.imgAncho}" height="${registro.imgAlto}">
         </figure>
@@ -46,5 +90,8 @@ function crearLista(registro) {
         </div>
     
     </div>
-        `;
+        `
+  );
 }
+
+crearMenuVideos();

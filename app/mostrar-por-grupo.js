@@ -1,3 +1,6 @@
+import { dbRutas } from "./dataBase/dbRutas.js";
+
+
 function createCardsG(cCards) {
   return `
     <div class="cards-item left">
@@ -21,8 +24,9 @@ function innerHTMLTecnologia() {
     doc.innerHTML = `${result[0].group.map(createCardsG).join("")}`;
   } else if (doc) {
     let cod = document.querySelector(".cards").classList[1];
-    let objCursos = Object.values(result[0].group)
-      .filter((f) => f.codgrupo === cod);
+    let objCursos = Object.values(result[0].group).filter(
+      (f) => f.codgrupo === cod
+    );
     doc.innerHTML = `${objCursos[0].cursos.map(createCardsG).join("")}`;
   }
 
@@ -46,8 +50,13 @@ function innerHTMLIngles() {
   }
 }
 
-let filtrar = document.getElementsByTagName("body")[0].id;
-const result = dbRutas.filter((x) => x.category == filtrar);
 
-let { idCategoria, classCategoria } = innerHTMLTecnologia();
-innerHTMLIngles();
+
+
+  let filtrar = document.getElementsByTagName("body")[0].id;
+  const result = dbRutas.filter((x) => x.category == filtrar);
+  
+  let { idCategoria, classCategoria } = innerHTMLTecnologia();
+  innerHTMLIngles();
+
+
