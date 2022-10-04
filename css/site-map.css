@@ -17,6 +17,10 @@
   padding: 0;
 }
 
+.sm-card h2 a:hover {
+  text-decoration: underline;
+}
+
 .sm-card p {
   font-size: 18px;
   padding: 0;
@@ -30,6 +34,11 @@
 .sm-card ul li a {
   text-decoration: none;
   color: #0276b3;
+}
+
+.sm-card ul li a:hover {
+  text-decoration: underline;
+  color: #004a72;
 }
 
 .lista-sm-card li {
@@ -47,6 +56,7 @@
 /*Aside*/
 div#categorias h2 {
   text-transform: uppercase;
+  margin-top: 11px;
   margin-bottom: 20px;
 }
 
@@ -62,6 +72,12 @@ div#categorias h2 {
 
 #lista li a {
   text-decoration: none;
+  font-size: 18px;
+}
+
+#lista li a:hover {
+  text-decoration: underline;
+  color: #004a72;
 }
 
 .video-imagen-texto figure {

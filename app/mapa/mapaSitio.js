@@ -98,7 +98,7 @@ export function crearNivel2_Grupos(obj) {
       <div class="sm-card">
         <h2>
           <a href="${m.linkHref}" target="${m.targetType}">
-            ${m.titleH2}:
+            ${m.titleH2}
           </a>
         </h2>
         <p>${m.titleH3}</p>
