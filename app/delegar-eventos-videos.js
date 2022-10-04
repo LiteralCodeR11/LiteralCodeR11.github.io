@@ -2,17 +2,17 @@ import { listaVideos } from "../app/dataBase/dbVideos.js";
 import { MenuVideos, limpiarSectionGrupos } from "../app/mapa/mapaSitio.js";
 
 function crearMenuVideos() {
-  const idLista = document.getElementById("lista");
+  const idLista = document.getElementById("idMenuVideos");
   const idGrupos = document.getElementById("grupos");
   const categoriaVideo = Object.values(listaVideos);
 
   idLista.innerHTML = `
-    <div>
-      <ul id="idMenuVideos" class="menuVideos">  
+    
+        
         <li>Todos</li>
         ${MenuVideos()}
-      </ul>
-    </div>`;
+      
+    `;
   eventosMenuVideos(idLista, idGrupos);
   crearNivel1_CategoriasVideos(idGrupos, categoriaVideo);
 }

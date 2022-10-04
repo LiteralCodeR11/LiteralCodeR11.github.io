@@ -71,6 +71,12 @@ main {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .ficha-video-item {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .ficha-video-item {
     width: 100%;
