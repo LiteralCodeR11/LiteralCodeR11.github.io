@@ -1,7 +1,10 @@
-function crearLista(registro) {
-    return `
-  <div class="ficha-video-item">
-      <figure>
+import { listaVideos } from "./dataBase/dbVideos.js";
+
+function crearLista(obj) {
+  return Object.values(obj[0].grupo_videos).map(
+    (registro) => `
+      <div class="ficha-video-item">
+        <figure>
           <img onclick='crearVideos("https://www.youtube.com/embed/${
             registro.idVideo
           }")'
@@ -18,25 +21,26 @@ function crearLista(registro) {
           <p style="display:none">${registro.texto}</p>        
           <h3 class="todos">${
             document.getElementById("Todos") ? registro.categoria : ""
-          }</h3>
-              
+          }</h3>              
       </div>
   
   </div>
-      `;
+      `
+  ); 
+}
+
+function mostrarVideos() {
+  const filtrar = document.getElementsByTagName("body")[0].id;
+  if (filtrar == "todos") {
+    const videoItem = document.getElementById("videoItem");
+    videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`;
+  } else {
+    const result = Object.values(listaVideos).filter(
+      (x) => x.categoria_videos === filtrar
+    );
+    const videoItem = document.getElementById("videoItem");
+    videoItem.innerHTML = crearLista(result);
   }
-  
-  function mostrarVideos() {
-    const filtrar = document.getElementsByTagName("body")[0].id;
-  
-    if (filtrar == "todos") {
-      const videoItem = document.getElementById("videoItem");
-      videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`;
-    } else {
-      const result = listaVideos.filter((x) => x.categoria == filtrar);
-      const videoItem = document.getElementById("videoItem");
-      videoItem.innerHTML += `${result.map(crearLista).join("")}`;
-    }
-  }
-  
-  mostrarVideos();
+}
+
+mostrarVideos();

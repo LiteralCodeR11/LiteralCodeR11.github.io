@@ -5,7 +5,7 @@ export const dbRutas = [
     linkHref: "sitios-web.html",
     targetType: "",
     imgSrc: "./public/images/sitios-web.png",
-    titleH2: "Sitios Web Oficiales con cursos online",
+    titleH2: "Sitios Web con cursos online",
     titleH3: "",
     contents: "",
     group: [
@@ -517,7 +517,7 @@ export const dbRutas = [
         linkHref: "https://manz.dev/como-empezar/",
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/manz-dev.jpg",
-        titleH2: "manz.dev",
+        titleH2: "Manz.dev",
         titleH3:
           "Ruta de desarrollo frontend avanzada creada por  J. Román (Manz), docente, divulgador informático y streamer de código.",
         contents: "",
