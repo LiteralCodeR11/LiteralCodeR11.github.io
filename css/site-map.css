@@ -17,6 +17,11 @@
   padding: 0;
 }
 
+.sm-card p {
+  font-size: 18px;
+  padding: 0;
+}
+
 .sm-card ul {
   list-style-type: square;
   padding: 2px 0px;
@@ -25,6 +30,10 @@
 .sm-card ul li a {
   text-decoration: none;
   color: #0276b3;
+}
+
+.lista-sm-card li {
+  padding-bottom: 5px;
 }
 
 .siteMap-H2 {

@@ -15,7 +15,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/w3schools.jpg",
         titleH2: "W3Schools",
-        titleH3: "",
+        titleH3:
+          "Sitio web para aprender tecnologías web en línea. Contiene tutoriales de HTML, CSS, JavaScript y otras tecnologías.",
         contents: "",
         cursos: [
           {
@@ -62,7 +63,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/mdn-web-docs.jpg",
         titleH2: "MDN Web Docs",
-        titleH3: "",
+        titleH3:
+          "Documentación de estándares web del sitio web oficial de Mozilla. Aloja Tutoriales y documentos sobre diferentes tecnologías web.",
         contents: "",
         cursos: [
           {
@@ -148,7 +150,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/microsoft.jpg",
         titleH2: "Microsoft",
-        titleH3: "",
+        titleH3:
+          "Aprende los conceptos básicos del desarrollo web, incluidos los lenguajes y herramientas de programación, y la accesibilidad web.",
         contents: "",
         cursos: [
           {
@@ -190,7 +193,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/web-dev-google-developers.jpg",
         titleH2: "Web Dev | Google Developers",
-        titleH3: "",
+        titleH3:
+          "Cursos destacados y las rutas de aprendizaje estructuradas para descubrir todo lo que necesitas saber sobre cómo crear un sitio web moderno.",
         contents: "",
         cursos: [
           {
@@ -237,7 +241,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/codecademy.jpg",
         titleH2: "Codecademy",
-        titleH3: "",
+        titleH3:
+          "Una plataforma estadounidense interactiva en línea que ofrece clases de codificación gratuitas en 12 lenguajes de programación diferentes.",
         contents: "",
         cursos: [
           {
@@ -274,10 +279,9 @@ export const dbRutas = [
         linkHref: "w3c.html",
         targetType: "",
         imgSrc: "./public/images/sitios-web/w3c.jpg",
-        imgWidth: "",
-        imgHeight: "",
         titleH2: "W3Cx",
-        titleH3: "",
+        titleH3:
+          "Cursos en línea gratuitos de The World Wide Web Consortium (W3C). Con 5 cursos básicos para aprender a desarrollar sitios web modernos.",
         contents: "",
         cursos: [
           {
@@ -340,7 +344,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/sitios-web/platzi.jpg",
         titleH2: "Platzi",
-        titleH3: "",
+        titleH3:
+          "Programa desde cero, domina Javascript, entiende HTML y aprende de algoritmos. Un curso para entender la lógica del código, y mucho más.",
         contents: "",
         cursos: [
           {
@@ -361,7 +366,8 @@ export const dbRutas = [
         targetType: "",
         imgSrc: "./public/images/sitios-web/freecodecamp.jpg",
         titleH2: "FreeCodeCamp",
-        titleH3: "",
+        titleH3:
+          "Plataforma web de enseñanza interactiva con tutoriales de HTML, CSS y JavaScript entre otros. Aprende a desarrollar aplicaciones web.",
         contents: "",
         cursos: [
           {
@@ -426,13 +432,14 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/sitios-web/cs50-harvard.jpg",
         titleH2: "CS50 Harvard.Edu" /**"https://cs50.harvard.edu/x/2022/" */,
-        titleH3: "",
+        titleH3:
+          "Aprende a pensar y resolver problemas de manera eficiente. Curso introductorio de La Universidad de Harvard en Informática.",
         contents: "",
         cursos: [
           {
             linkHref:
               "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
-            targetType: "",
+            targetType: "_blank",
             imgSrc: "",
             titleH2: "Introducción a la informática de CS50",
             titleH3: "CS50 Harvard.edu",
@@ -447,7 +454,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/sitios-web/egghead-io.jpg",
         titleH2: "Egghead.io",
-        titleH3: "",
+        titleH3:
+          "Curso diseñado por Kent C Dodds, para enseñarte todo lo que necesitas para comenzar a crear aplicaciones web en React de inmediato.",
         contents: "",
         cursos: [
           {
@@ -468,8 +476,20 @@ export const dbRutas = [
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/javascript-info.jpg",
         titleH2: "JavaScript.info | Ilya Kantor",
-        titleH3: "",
+        titleH3:
+          "El Tutorial de JavaScript Moderno. Cómo se hace ahora. Desde lo básico hasta temas avanzados con explicaciones simples pero detalladas.",
         contents: "",
+        cursos: [
+          {
+            linkHref: "https://es.javascript.info/",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/javascript-info.jpg",
+            titleH2: "El Tutorial de JavaScript Moderno",
+            titleH3: "JavaScript.info | Ilya Kantor",
+            contents:
+              "El curso principal contiene 2 partes que cubren JavaScript como lenguaje de programación y el trabajo con un navegador. También hay series adicionales de artículos temáticos.",
+          },
+        ],
       },
       {
         codgrupo: "cursos-interneting-is-hard",
@@ -477,8 +497,20 @@ export const dbRutas = [
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/internetingishard.jpg",
         titleH2: "Interneting is hard",
-        titleH3: "",
+        titleH3:
+          "Aprender a codificar con un conjunto completo de tutoriales de desarrollo web para ayudar a transformar a los principiantes en profesionales.",
         contents: "",
+        cursos: [
+          {
+            linkHref: "https://www.internetingishard.com/",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/internetingishard.jpg",
+            titleH2:
+              "Tutoriales amigables de desarrollo web para principiantes",
+            titleH3: "Interneting is hard",
+            contents: "",
+          },
+        ],
       },
       {
         codgrupo: "cursos-manz-dev",
@@ -486,8 +518,36 @@ export const dbRutas = [
         targetType: "_black",
         imgSrc: "./public/images/sitios-web/manz-dev.jpg",
         titleH2: "manz.dev",
-        titleH3: "",
+        titleH3:
+          "Ruta de desarrollo frontend avanzada creada por  J. Román (Manz), docente, divulgador informático y streamer de código.",
         contents: "",
+        cursos: [
+          {
+            linkHref:
+              "https://lenguajehtml.com/html/introduccion/tabla-periodica-html5/",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/manz-dev.jpg",
+            titleH2: "Todas las etiquetas HTML5 organizadas por temáticas.",
+            titleH3: "manz.dev",
+            contents: "",
+          },
+          {
+            linkHref: "https://lenguajecss.com/css/",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/manz-dev.jpg",
+            titleH2: "Aprende a darle estilo a una web.",
+            titleH3: "manz.dev",
+            contents: "",
+          },
+          {
+            linkHref: "https://lenguajejs.com/javascript/",
+            targetType: "_blank",
+            imgSrc: "./public/images/sitios-web/manz-dev.jpg",
+            titleH2: "Aprende a programar en JavaScript",
+            titleH3: "manz.dev",
+            contents: "",
+          },
+        ],
       },
     ],
   },
@@ -650,7 +710,7 @@ export const dbRutas = [
     linkHref: "libros.html",
     targetType: "",
     imgSrc: "./public/images/librosWebDeveloper.png",
-    titleH2: "Libros y Guias",
+    titleH2: "Libros y Guías",
     titleH3: "",
     contents: "",
     group: [],

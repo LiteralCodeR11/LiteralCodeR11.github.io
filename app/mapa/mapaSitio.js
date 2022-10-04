@@ -102,7 +102,7 @@ export function crearNivel2_Grupos(obj) {
           </a>
         </h2>
         <p>${m.titleH3}</p>
-        <ul>${crearNivel3(m.cursos)}</ul>
+        <ul class="lista-sm-card">${crearNivel3(m.cursos)}</ul>
       </div>
      
   `
