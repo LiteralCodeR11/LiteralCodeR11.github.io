@@ -1,5 +1,6 @@
 import { listaLibros } from "../dataBase/dbLibros.js";
 import { listaVideos } from "../dataBase/dbVideos.js";
+ 
 
 export function crearListaCategorias(rutas) {
   const idCategorias = document.getElementById("categorias");
@@ -101,6 +102,7 @@ export function crearNivel2_Grupos(obj) {
             ${m.titleH2}
           </a>
         </h2>
+        ${m.social_Media ? redesMentores(m) : '' }
         <p>${m.titleH3}</p>
         <ul class="lista-sm-card">${crearNivel3(m.cursos)}</ul>
       </div>
@@ -108,6 +110,16 @@ export function crearNivel2_Grupos(obj) {
   `
     )
     .join("");
+}
+
+function redesMentores(cCards){
+  return `   
+  <ul class='redesMentores-mapaSitio' > 
+    <li><a href="${cCards.social_Media[0].sitioWeb}" target="_black">W</a></li>    
+    <li><a href="${cCards.social_Media[0].twitter} target="_black"">T</a></li>
+    <li><a href="${cCards.social_Media[0].youtube}" target="_black">Y</a></li>
+  </ul>  
+  `
 }
 
 export function crearNivel3(obj) {

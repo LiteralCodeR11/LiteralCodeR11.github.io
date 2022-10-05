@@ -17,7 +17,7 @@ function createCardsG(cCards) {
     `;
 }
 
-function redesMentores(cCards){
+export function redesMentores(cCards){
   return `   
   <ul class='redesMentores' > 
     <li><a href="${cCards.social_Media[0].sitioWeb}" target="_black">W</a></li>    
