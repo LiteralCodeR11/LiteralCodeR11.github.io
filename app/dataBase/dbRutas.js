@@ -645,10 +645,10 @@ export const dbRutas = [
         linkHref: "https://nextjs.org/docs",
         targetType: "_blank",
         imgSrc: "./public/images/app/nextjs.jpg",
-        titleH2: "Nextjs",
-        titleH3: "Next.js | Open-Source  ",
+        titleH2: "Next.JS",
+        titleH3: "Un marco de desarrollo web para React creado por Vercel. Con generación de sitios web estáticos y representación del lado del servidor.",
         contents:
-          "Next.js es un marco de desarrollo web de código abierto creado por Vercel que permite aplicaciones web basadas en React con representación del lado del servidor y generación de sitios web estáticos.",
+          "Muchos sitios web importantes utilizan este marco, incluidos Walmart, Apple, Nike, Netflix, TikTok, Uber, Lyft y Starbucks.",
         cursos: [],
       },
       {
@@ -656,9 +656,9 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/vercel.jpg",
         titleH2: "Vercel",
-        titleH3: "Fácil | Universal | Accesible",
+        titleH3: "Plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad requerida. Creador del marco de desarrollo Next.JS.",
         contents:
-          "Vercel es la plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad que los innovadores necesitan para crear en el momento de la inspiración.",
+          "La arquitectura de Vercel se basa en Jamstack y las implementaciones se manejan a través de repositorios de Git.",
         cursos: [],
       },
       {
@@ -666,29 +666,29 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/typescript.jpg",
         titleH2: "TypeScript",
-        titleH3: "Sintaxis adicional para JS",
+        titleH3: "Lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala. ",
         contents:
-          "TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala.",
+          "TypeScript es una Sintaxis adicional para JS. Desde lo más básico hasta lo más avanzado. Con verificación estática y un superconjunto tipado. ",
         cursos: [],
       },
       {
         linkHref: "https://html.spec.whatwg.org/multipage/",
         targetType: "_blank",
         imgSrc: "./public/images/app/html.jpg",
-        titleH2: "HTML",
-        titleH3: "WHATWG",
+        titleH2: "WHATWG - HTML",
+        titleH3: "Para una comprensión completa de algunas de las partes más técnicas de la especificación HTML y los conceptos básicos del Modelo de Objetos (DOM).",
         contents:
-          "La familiaridad con los conceptos básicos de DOM es necesaria para una comprensión completa de algunas de las partes más técnicas de esta especificación.",
+          "Esta especificación se limita a proporcionar un lenguaje de marcado de nivel semántico y API de secuencias de comandos de nivel semántico.",
         cursos: [],
       },
       {
         linkHref: "https://www.w3.org/TR/CSS/",
         targetType: "_blank",
         imgSrc: "./public/images/app/css.jpg",
-        titleH2: "CSS",
-        titleH3: "W3.org",
+        titleH2: "W3.org - CSS",
+        titleH3: "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS).",
         contents:
-          "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS) a partir de 2021.",
+          "Genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.",
         cursos: [],
       },
       {
@@ -696,10 +696,10 @@ export const dbRutas = [
           "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
         targetType: "_blank",
         imgSrc: "./public/images/app/javascript.jpg",
-        titleH2: "JavaScript",
-        titleH3: "ECMA-262",
+        titleH2: "ECMA-262 - JavaScript",
+        titleH3: "Información exhaustiva, detallada y formal sobre JavaScript. Es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
         contents:
-          "Información exhaustiva, detallada y formal sobre JavaScript. Difícil de entender al principio, sin embargo, es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
+          "Este estándar define el lenguaje de programación de propósito general ECMAScript 2022.​",
         cursos: [],
       },
     ],
