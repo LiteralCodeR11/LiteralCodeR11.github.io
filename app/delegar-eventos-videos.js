@@ -37,12 +37,11 @@ function eventosMenuVideos(idLista, idGrupos) {
 }
 
 function crearNivel1_CategoriasVideos(idGrupos, categoriaVideo) {
-  console.log("crearNivel1_CategoriasVideos: ok");
   idGrupos.innerHTML += categoriaVideo
     .map(
       (m) =>
         `         
-          <h2>${m.categoria_videos}</h2>
+          <h2 class="h2Videos">${m.categoria_videos}</h2>
           <hr>        
           <div id="videoItem" class="contenedor-videos">            
             ${crearLista(m.grupo_videos)}
@@ -69,26 +68,17 @@ function crearLista(obj) {
     (registro) => `  
     <div class="ficha-video-item">
         <figure>
-            <img onclick='crearVideos("https://www.youtube.com/embed/${
-              registro.idVideo
-            }")'
-                src="https://i.ytimg.com/vi/${registro.idVideo}/${
-      registro.imagen
-    }.jpg" 
+            <img onclick='crearVideos("https://www.youtube.com/embed/${registro.idVideo}")'
+                src="https://i.ytimg.com/vi/${registro.idVideo}/${registro.imagen}.jpg" 
                 alt="${registro.titulo}"  
                 width="${registro.imgAncho}" height="${registro.imgAlto}">
         </figure>
         
         <div class="textos">
-            <h2>${registro.titulo}</h2>
             <h3>${registro.canal}</h3>
-            <p style="display:none">${registro.texto} </p>        
-            <h3 class="todos">${
-              document.getElementById("todos") ? registro.categoria : ""
-            }</h3>
-                
-        </div>
-    
+            <h2>${registro.titulo}</h2>
+            <p style="display:none">${registro.texto}</p>        
+        </div>    
     </div>
         `
   );

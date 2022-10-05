@@ -18,10 +18,13 @@ main {
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .ficha-video-item {
   width: 22%;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 
 .ficha-video-item figure {

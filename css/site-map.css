@@ -4,15 +4,16 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  margin-bottom: 50px;
 }
 
 .sm-card {
-  width: 30%;
+  width: 32%;
 }
 
 .sm-card h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   margin: 15px 0;
   padding: 0;
 }
@@ -85,7 +86,7 @@ div#categorias h2 {
   padding-right: 5px;
   position: relative;
   float: left;
-  top: 0;
+  top: 5px;
 }
 
 .video-imagen-texto p {

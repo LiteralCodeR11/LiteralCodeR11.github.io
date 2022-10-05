@@ -1,13 +1,3 @@
-/* {
-        idVideo: "",
-        imagen: "hq720",
-        titulo: "TITULO",
-        canal: "CANAL",
-        texto: "TEXTO",
-        categoria: "",
-        etiqueta: "",
-    }, */
-
 export const listaVideos = [
   {
     categoria_videos: "HTML",
@@ -17,7 +7,7 @@ export const listaVideos = [
         imagen: "hq720",
         titulo: "Aprende HTML ahora! curso completo GRATIS desde cero",
         canal: "HolaMundo",
-        texto: "curso completo",
+        texto: "Aprende lo básico de HTML con una explicación del uso de los principales elementos para darle estructura a tu página web.   ",
         categoria: "HTML",
         etiqueta: "Tutorial",
       },
@@ -71,7 +61,7 @@ export const listaVideos = [
         imagen: "hq720",
         titulo: "Aprende CSS ahora! curso completo GRATIS desde cero",
         canal: "HolaMundo",
-        texto: "Aprende CSS",
+        texto: "Aprende lo fundamental de CSS de una manera simple para cambiar la apariencia y diseño de tu sitio web.",
         categoria: "CSS",
         etiqueta: "",
       },
@@ -131,7 +121,7 @@ export const listaVideos = [
         titulo: "Josh Comeau – Secret Mechanisms of CSS",
         canal: "9elements",
         texto:
-          "CSS a veces puede parecer un lenguaje muy inconsistente. ¿Por qué este fragmento que he usado innumerables veces de repente se comporta de manera diferente? Resulta que están sucediendo muchas cosas debajo del capó. CSS es una colección de algoritmos de diseño complejos, con todo tipo de mecanismos ocultos y comportamientos implícitos. Cuando nos tomamos el tiempo para aprender cómo funciona CSS, el lenguaje comienza a tener mucho más sentido y las sorpresas desagradables se vuelven mucho menos comunes.",
+          "CSS es una colección de algoritmos de diseño complejos, con todo tipo de mecanismos ocultos y comportamientos implícitos. Cuando nos tomamos el tiempo para aprender cómo funciona CSS, el lenguaje comienza a tener mucho más sentido y las sorpresas desagradables se vuelven mucho menos comunes.",
         categoria: "CSS",
         etiqueta: "",
       },
