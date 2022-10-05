@@ -1,18 +1,30 @@
 import { dbRutas } from "./dataBase/dbRutas.js";
 
-
 function createCardsG(cCards) {
   return `
     <div class="cards-item left">
         <a href="${cCards.linkHref}" target="${cCards.targetType}">
             <img src="${cCards.imgSrc}"
-                alt="${cCards.titleH2}" width="${cCards.imgWidth}" height="${cCards.imgHeight}" >
+                alt="${cCards.titleH2}" width="${cCards.imgWidth}" height="${
+    cCards.imgHeight
+  }" >
         </a>
         <h2>${cCards.titleH2}</h2>
+        ${cCards.social_Media ? redesMentores(cCards) : '' }        
         <h3 class="mentor">${cCards.titleH3}</h3>
         <p>${cCards.contents}</p>
     </div>
     `;
+}
+
+function redesMentores(cCards){
+  return `   
+  <ul class='redesMentores' > 
+    <li><a href="${cCards.social_Media[0].sitioWeb}" target="_black">W</a></li>    
+    <li><a href="${cCards.social_Media[0].twitter} target="_black"">T</a></li>
+    <li><a href="${cCards.social_Media[0].youtube}" target="_black">Y</a></li>
+  </ul>  
+  `
 }
 
 function innerHTMLTecnologia() {
@@ -50,13 +62,8 @@ function innerHTMLIngles() {
   }
 }
 
+let filtrar = document.getElementsByTagName("body")[0].id;
+const result = dbRutas.filter((x) => x.category == filtrar);
 
-
-
-  let filtrar = document.getElementsByTagName("body")[0].id;
-  const result = dbRutas.filter((x) => x.category == filtrar);
-  
-  let { idCategoria, classCategoria } = innerHTMLTecnologia();
-  innerHTMLIngles();
-
-
+let { idCategoria, classCategoria } = innerHTMLTecnologia();
+innerHTMLIngles();

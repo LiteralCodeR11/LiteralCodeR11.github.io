@@ -566,9 +566,9 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/html.jpg",
         titleH2: "MDN - HTML",
-        titleH3: "Un tutorial introductorio al lenguaje de marcas de hipertexto (HTML), con referencias a los elementos y su documentación.",
-        contents:
-          "Los enlaces son un aspecto fundamental de la Web.",
+        titleH3:
+          "Un tutorial introductorio al lenguaje de marcas de hipertexto (HTML), con referencias a los elementos y su documentación.",
+        contents: "Los enlaces son un aspecto fundamental de la Web.",
         cursos: [],
       },
       {
@@ -576,7 +576,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/css.jpg",
         titleH2: "MDN - CSS",
-        titleH3: "Todas las propiedades CSS estándar, pseudoclases, pseudoelementos, tipos de datos, notaciones funcionales y reglas at.",
+        titleH3:
+          "Todas las propiedades CSS estándar, pseudoclases, pseudoelementos, tipos de datos, notaciones funcionales y reglas at.",
         contents:
           "Conceptos clave de CSS y una lista de selectores organizados por tipo. Breve referencia de DOM-CSS/CSSOM.",
         cursos: [],
@@ -586,9 +587,9 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/javascript.jpg",
         titleH2: "MDN - JavaScript",
-        titleH3: "La documentación basada en las últimas versiones preliminares de ECMA-262 y ECMA-402. Con tutoriales y referencias.",
-        contents:
-          "Aprende a programar en JavaScript con guías y tutoriales.",
+        titleH3:
+          "La documentación basada en las últimas versiones preliminares de ECMA-262 y ECMA-402. Con tutoriales y referencias.",
+        contents: "Aprende a programar en JavaScript con guías y tutoriales.",
         cursos: [],
       },
       {
@@ -596,7 +597,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/visual-studio-code.jpg",
         titleH2: "Visual Studio Code",
-        titleH3: "Un editor de código fuente con soporte integrado para JavaScript, TypeScript y Node.js. Extensiones para mejorar tu flujo de trabajo.",
+        titleH3:
+          "Un editor de código fuente con soporte integrado para JavaScript, TypeScript y Node.js. Extensiones para mejorar tu flujo de trabajo.",
         contents:
           "Una guía introductoria para su instalación y uso. Además atajos de teclado y descargas.",
         cursos: [],
@@ -606,7 +608,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/git-scm.png",
         titleH2: "Git SCM",
-        titleH3: "Un Software de control de versiones, para el mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.",
+        titleH3:
+          "Un Software de control de versiones, para el mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.",
         contents:
           "Un manual de referencia a su modelo de ramificación, documentación y descarga. ",
         cursos: [],
@@ -616,7 +619,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/github.jpg",
         titleH2: "GitHub",
-        titleH3: "Crea un repositorio en GitHub para almacenar y colaborar con los archivos de tu proyecto y luego administrar el nombre y ubicación del repositorio.",
+        titleH3:
+          "Crea un repositorio en GitHub para almacenar y colaborar con los archivos de tu proyecto y luego administrar el nombre y ubicación del repositorio.",
         contents:
           "También, puedes compartir la propiedad de los repositorios con otras personas.",
         cursos: [],
@@ -626,9 +630,9 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/nodejs.jpg",
         titleH2: "Node JS | V8",
-        titleH3: "Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el JavaScript que utiliza el motor V8 de Google.",
-        contents:
-          "Documentación, características de ES6, guías y más.",
+        titleH3:
+          "Entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el JavaScript que utiliza el motor V8 de Google.",
+        contents: "Documentación, características de ES6, guías y más.",
         cursos: [],
       },
       {
@@ -636,7 +640,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/react.jpg",
         titleH2: "React ",
-        titleH3: "Biblioteca Javascript para crear interfaces de usuario. Una guía para probar, agregar interactividad o empezar una aplicación compleja.",
+        titleH3:
+          "Biblioteca Javascript para crear interfaces de usuario. Una guía para probar, agregar interactividad o empezar una aplicación compleja.",
         contents:
           "React (by Facebook Open Source). Una guía y documentación para  ayudarte a empezar.",
         cursos: [],
@@ -646,7 +651,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/nextjs.jpg",
         titleH2: "Next.JS",
-        titleH3: "Un marco de desarrollo web para React creado por Vercel. Con generación de sitios web estáticos y representación del lado del servidor.",
+        titleH3:
+          "Un marco de desarrollo web para React creado por Vercel. Con generación de sitios web estáticos y representación del lado del servidor.",
         contents:
           "Muchos sitios web importantes utilizan este marco, incluidos Walmart, Apple, Nike, Netflix, TikTok, Uber, Lyft y Starbucks.",
         cursos: [],
@@ -656,7 +662,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/vercel.jpg",
         titleH2: "Vercel",
-        titleH3: "Plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad requerida. Creador del marco de desarrollo Next.JS.",
+        titleH3:
+          "Plataforma para desarrolladores frontend, que brinda la velocidad y la confiabilidad requerida. Creador del marco de desarrollo Next.JS.",
         contents:
           "La arquitectura de Vercel se basa en Jamstack y las implementaciones se manejan a través de repositorios de Git.",
         cursos: [],
@@ -666,7 +673,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/typescript.jpg",
         titleH2: "TypeScript",
-        titleH3: "Lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala. ",
+        titleH3:
+          "Lenguaje de programación fuertemente tipado que se basa en JavaScript, lo que le brinda mejores herramientas a cualquier escala. ",
         contents:
           "TypeScript es una Sintaxis adicional para JS. Desde lo más básico hasta lo más avanzado. Con verificación estática y un superconjunto tipado. ",
         cursos: [],
@@ -676,7 +684,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/html.jpg",
         titleH2: "WHATWG - HTML",
-        titleH3: "Para una comprensión completa de algunas de las partes más técnicas de la especificación HTML y los conceptos básicos del Modelo de Objetos (DOM).",
+        titleH3:
+          "Para una comprensión completa de algunas de las partes más técnicas de la especificación HTML y los conceptos básicos del Modelo de Objetos (DOM).",
         contents:
           "Esta especificación se limita a proporcionar un lenguaje de marcado de nivel semántico y API de secuencias de comandos de nivel semántico.",
         cursos: [],
@@ -686,7 +695,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/css.jpg",
         titleH2: "W3.org - CSS",
-        titleH3: "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS).",
+        titleH3:
+          "Este documento recopila en una sola definición todas las especificaciones que juntas forman el estado actual de las hojas de estilo en cascada (CSS).",
         contents:
           "Genera recomendaciones y estándares que aseguran el crecimiento de la World Wide Web a largo plazo.",
         cursos: [],
@@ -697,7 +707,8 @@ export const dbRutas = [
         targetType: "_blank",
         imgSrc: "./public/images/app/javascript.jpg",
         titleH2: "ECMA-262 - JavaScript",
-        titleH3: "Información exhaustiva, detallada y formal sobre JavaScript. Es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
+        titleH3:
+          "Información exhaustiva, detallada y formal sobre JavaScript. Es la fuente más fiable sobre los detalles del lenguaje JavaScript.",
         contents:
           "Este estándar define el lenguaje de programación de propósito general ECMAScript 2022.​",
         cursos: [],
@@ -1050,87 +1061,133 @@ export const dbRutas = [
         linkHref: "https://twitter.com/freddier",
         targetType: "_blank",
         imgSrc: "public/images/otros/Freddy-Vega.jpg",
-        titleH2: "Freddy Vega",
-        titleH3: "Platzi",
-        contents:
-          "<a href='https://freddyvega.com/john-freddy-vega/' target='_blank'>Web</a> <br>Fundador y CEO de Platzi, John Freddy Vega es uno de los 20 latinos más influyentes de la industria de la tecnología, de acuerdo con el sitio web CNET.",
+        titleH2: "Freddy Vega <br> Platzi",
+        titleH3:
+          "Fundador y CEO de Platzi, John Freddy Vega es uno de los 20 latinos más influyentes de la industria de la tecnología, de acuerdo con el sitio web CNET.",
+        contents: "Nunca pares de aprender",
+        social_Media: [
+          {
+            sitioWeb: "https://freddyvega.com/john-freddy-vega/",
+            twitter: "https://twitter.com/freddier",
+            youtube: "#",
+          },
+        ],
       },
       {
         linkHref: "https://twitter.com/rauchg",
         targetType: "_blank",
         imgSrc: "public/images/otros/Guillermo-Rauch.jpg",
-        titleH2: "Guillermo Rauch",
-        titleH3: "Vercel CEO",
-        contents:
-          "<a href='https://rauchg.com/' target='_blank'>Web</a> <br> Guillermo Rauch es una de las personas más influyentes en el mundo del desarrollo web. Actualmente es CEO y co-fundador de Vercel ▲ (hasta hace muy poco ZEIT), una plataforma que te permite desplegar tus aplicaciones de forma rápida y sencilla.",
+        titleH2: "Guillermo Rauch <br>Vercel CEO",
+        titleH3:
+          "Una de las personas más influyentes en el mundo del desarrollo web. Actualmente es CEO y co-fundador de Vercel ▲.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://rauchg.com/",
+            twitter: "https://twitter.com/rauchg",
+            youtube: "#",
+          },
+        ],
       },
       {
         linkHref: "https://www.youtube.com/c/HolaMundoDev",
         targetType: "_blank",
         imgSrc: "public/images/otros/Nicolas-Schurmann.jpg",
-        titleH2: "Nicolas Schurmann",
-        titleH3: "Hola Mundo",
-        contents:
-          "<a href='https://www.nicolas-schurmann.com/' target='_blank'>Web</a> <br>Educación académica para desarrolladores del mundo de habla hispana, con capacitaciones de alto nivel, de lo más básico hasta lo más avanzado.",
+        titleH2: "Nicolás Schürmann <br> Hola Mundo",
+        titleH3:
+          "Educación académica para desarrolladores del mundo de habla hispana, con capacitaciones de alto nivel, de lo más básico hasta lo más avanzado.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://www.nicolas-schurmann.com/",
+            twitter: "https://twitter.com/_nasch_",
+            youtube: "https://www.youtube.com/c/HolaMundoDev",
+          },
+        ],
       },
       {
         linkHref: "https://www.youtube.com/c/midudev",
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/ytc/AKedOLTBFvOrff69Sw8UxdRsEF5ABUpNZpxfmm86VNZZgQ=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Miguel Ángel Duran",
-        titleH3: "Midudev",
-        contents:
-          "<a href='https://midu.dev/' target='_blank'>Web</a> <br>Desarrollo con JavaScript. Programación web y FULL STACK con React, Node.js, HTML, CSS, Tailwind, Next.js y Deno.",
+        titleH2: "Miguel Ángel Duran<br>Midudev",
+        titleH3:
+          "Desarrollo con JavaScript. Programación web y FULL STACK con React, Node.js, HTML, CSS, Tailwind, Next.js y Deno.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://midu.dev/",
+            twitter: "https://twitter.com/midudev",
+            youtube: "https://www.youtube.com/c/midudev",
+          },
+        ],
       },
       {
         linkHref: "https://www.youtube.com/c/GonzaloPozzo",
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/LJFbfHUSHXK89JMeG-XhOoE24MS2oiWbs_h_UHgOSvs5SOSaeArCXK9YvyiVh48YI_5CGZz55Wg=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Gonzalo Pozzo",
-        titleH3: "Gonzalo Pozzo | Goncy",
-        contents:
-          "<a href='https://goncy.netlify.app/' target='_blank'>Web</a> <br>Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador.",
+        titleH2: "Gonzalo Pozzo <br> Goncy",
+        titleH3:
+          "Desarrollador frontend @Vercel que trabaja con React - Redux stack, Cypress.io Ambassador.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://goncy.netlify.app/",
+            twitter: "https://twitter.com/goncy",
+            youtube: "https://www.youtube.com/c/GonzaloPozzo",
+          },
+        ],
       },
       {
         linkHref: "https://www.youtube.com/c/FaztTech",
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/ytc/AKedOLSggvA4usmC3lIDdqORkmsje78sxwaSPsQ3gefNYw=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Jesus Fazt",
-        titleH3: "Fazt",
-        contents:
-          "<a href='https://www.faztweb.com/' target='_blank'>Web</a><br>Todo lo que siempre quisiste saber sobre programación web y nunca te atreviste a preguntar.",
+        titleH2: "Jesus <br>Fazt",
+        titleH3:
+          "Todo lo que siempre quisiste saber sobre programación web y nunca te atreviste a preguntar.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://www.faztweb.com/",
+            twitter: "https://twitter.com/FaztTech",
+            youtube: "https://www.youtube.com/c/FaztTech",
+          },
+        ],
       },
       {
         linkHref: "https://www.youtube.com/c/FalconMasters",
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/ytc/AKedOLSZnvHT0zdGfJpGB1MH1gd6K4JlqFpv3PE0rqJ6=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Carlos Arturo",
-        titleH3: "FalconMasters",
-        contents:
-          "<a href='http://www.falconmasters.com/' target='_blank'>Web</a><br>YouTuber, Diseñador Web, Geek y Emprendedor",
+        titleH2: "Carlos Arturo | FalconMasters",
+        titleH3: "YouTuber, Diseñador Web, Geek y Emprendedor",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "http://www.falconmasters.com/",
+            twitter: "https://twitter.com/FalconMasters",
+            youtube: "https://www.youtube.com/c/FalconMasters",
+          },
+        ],
       },
       {
         linkHref: "https://www.joshwcomeau.com/",
         targetType: "_blank",
         imgSrc: "public/images/otros/josh-comeau.jpg",
-        titleH2: "Josh Comeau",
-        titleH3: "Josh W. Comeau",
-        contents:
-          "<a href='https://www.joshwcomeau.com/' target='_blank'>Web</a><br>Desarrollador independiente y educador. CSS para desarrolladores de JavaScript",
-      },
-      /* {
-        linkHref: "https://www.youtube.com/c/ColtSteeleCode",
-        targetType: "_blank",
-        imgSrc:
-          "https://yt3.ggpht.com/ytc/AMLnZu88ZkiZWoGwvsiYfeELj7youSFcFtbRIjn3Sivv=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Colt Steele",
-        titleH3: "Colt Steele",
+        titleH2: "Josh Comeau <br>Josh W. Comeau",
+        titleH3:
+          "Desarrollador independiente y educador. CSS para desarrolladores de JavaScript",
         contents: "",
-      }, */
+        social_Media: [
+          {
+            sitioWeb: "https://www.joshwcomeau.com/",
+            twitter: "https://twitter.com/JoshWComeau",
+            youtube: "#",
+          },
+        ],
+      },
     ],
   },
   {
