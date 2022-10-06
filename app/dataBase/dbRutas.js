@@ -1069,7 +1069,7 @@ export const dbRutas = [
           {
             sitioWeb: "https://freddyvega.com/john-freddy-vega/",
             twitter: "https://twitter.com/freddier",
-            youtube: "#",
+            youtube: "https://www.youtube.com/watch?v=jQ19FCO4MYA",
           },
         ],
       },
@@ -1085,7 +1085,7 @@ export const dbRutas = [
           {
             sitioWeb: "https://rauchg.com/",
             twitter: "https://twitter.com/rauchg",
-            youtube: "#",
+            youtube: "https://www.youtube.com/watch?v=CmZEJcDCBxM",
           },
         ],
       },
@@ -1119,6 +1119,23 @@ export const dbRutas = [
             sitioWeb: "https://midu.dev/",
             twitter: "https://twitter.com/midudev",
             youtube: "https://www.youtube.com/c/midudev",
+          },
+        ],
+      },
+      {
+        linkHref: "https://www.youtube.com/c/ManzDev",
+        targetType: "_blank",
+        imgSrc:
+          "https://yt3.ggpht.com/ytc/AMLnZu-PYHkpJ28PNOLGH9fozDhJYzsDDx-6NwsOlX3o=s176-c-k-c0x00ffffff-no-rj",
+        titleH2: "J. Román<br>ManzDev",
+        titleH3:
+          "Docente, divulgador informático y streamer de código. Amante del CSS, del mundo de la programación y de la plataforma web en general.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://manz.dev/",
+            twitter: "https://twitter.com/Manz/",
+            youtube: "https://www.youtube.com/c/ManzDev",
           },
         ],
       },
@@ -1157,11 +1174,43 @@ export const dbRutas = [
         ],
       },
       {
+        linkHref: "https://www.youtube.com/c/hdeleonnet",
+        targetType: "_blank",
+        imgSrc:
+          "https://yt3.ggpht.com/y0B6w_19cVQRqGisvkmZu7depYJAmtDbOHrvMqH4UU6YSs5x7sKvX84U-rmyVYUnIZjgSAaQ8TE=s176-c-k-c0x00ffffff-no-rj",
+        titleH2: "Héctor de León<br>hdeleon.net",
+        titleH3: "Programador y Microsoft MVP. Cursos, videos y podcast relacionados a la programación, tecnología y computación.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "https://t.co/KK4s7yq5Ei",
+            twitter: "https://twitter.com/powerhdeleon",
+            youtube: "https://www.youtube.com/c/hdeleonnet",
+          },
+        ],
+      },
+      {
+        linkHref: "https://www.youtube.com/c/VidaMRR/videos",
+        targetType: "_blank",
+        imgSrc:
+          "https://yt3.ggpht.com/J4JSs9QhXl6M3Ru9c2z1hTtwfpHuwoj3p7liQKkulESs_llCAjypk4c_qXNPX0ZCRxPeJB_M=s176-c-k-c0x00ffffff-no-rj",
+        titleH2: "Marcos Rivas<br>Vida MRR - Programacion web",
+        titleH3: "Vida MRR es un canal de diseño y desarrollo web, donde puedes encontrar contenido de Javascript, Node.js, PHP, MySQL entre otros.",
+        contents: "",
+        social_Media: [
+          {
+            sitioWeb: "http://www.vidamrr.com/",
+            twitter: "https://twitter.com/vidamrr",
+            youtube: "https://www.youtube.com/c/VidaMRR/videos",
+          },
+        ],
+      },
+      {
         linkHref: "https://www.youtube.com/c/FalconMasters",
         targetType: "_blank",
         imgSrc:
           "https://yt3.ggpht.com/ytc/AKedOLSZnvHT0zdGfJpGB1MH1gd6K4JlqFpv3PE0rqJ6=s176-c-k-c0x00ffffff-no-rj",
-        titleH2: "Carlos Arturo | FalconMasters",
+        titleH2: "Carlos Arturo <br> FalconMasters",
         titleH3: "YouTuber, Diseñador Web, Geek y Emprendedor",
         contents: "",
         social_Media: [

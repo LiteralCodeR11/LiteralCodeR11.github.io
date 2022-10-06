@@ -21,7 +21,7 @@ export function redesMentores(cCards){
   return `   
   <ul class='redesMentores' > 
     <li><a href="${cCards.social_Media[0].sitioWeb}" target="_black">W</a></li>    
-    <li><a href="${cCards.social_Media[0].twitter} target="_black"">T</a></li>
+    <li><a href="${cCards.social_Media[0].twitter}" target="_black">T</a></li>
     <li><a href="${cCards.social_Media[0].youtube}" target="_black">Y</a></li>
   </ul>  
   `

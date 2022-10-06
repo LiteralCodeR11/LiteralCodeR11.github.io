@@ -1,6 +1,5 @@
 import { listaLibros } from "../dataBase/dbLibros.js";
 import { listaVideos } from "../dataBase/dbVideos.js";
- 
 
 export function crearListaCategorias(rutas) {
   const idCategorias = document.getElementById("categorias");
@@ -39,7 +38,7 @@ export function EventosCategorias(ruta) {
 export function crearNivel1_Categorias(dbRutas, categoria) {
   let filtrar = Object.values(dbRutas.filter((f) => f.titleH2 === categoria));
   const idGrupos = document.getElementById("grupos");
-  const idMenuSection = document.getElementById("menu-section")
+  const idMenuSection = document.getElementById("menu-section");
 
   if (
     filtrar[0].group &&
@@ -84,10 +83,10 @@ export function crearNivel1_Categorias(dbRutas, categoria) {
         </ul>
       </div> 
       
-    `;    
+    `;
     limpiarSectionGrupos();
-    crearNivel1_CategoriasVideos(idGrupos,categoriaVideo)
-    cargarEventosMenu(idGrupos);  
+    crearNivel1_CategoriasVideos(idGrupos, categoriaVideo);
+    cargarEventosMenu(idGrupos);
   }
 }
 
@@ -102,7 +101,7 @@ export function crearNivel2_Grupos(obj) {
             ${m.titleH2}
           </a>
         </h2>
-        ${m.social_Media ? redesMentores(m) : '' }
+        ${m.social_Media ? redesMentores(m) : ""}
         <p>${m.titleH3}</p>
         <ul class="lista-sm-card">${crearNivel3(m.cursos)}</ul>
       </div>
@@ -112,14 +111,14 @@ export function crearNivel2_Grupos(obj) {
     .join("");
 }
 
-function redesMentores(cCards){
+function redesMentores(cCards) {
   return `   
   <ul class='redesMentores-mapaSitio' > 
     <li><a href="${cCards.social_Media[0].sitioWeb}" target="_black">W</a></li>    
-    <li><a href="${cCards.social_Media[0].twitter} target="_black"">T</a></li>
-    <li><a href="${cCards.social_Media[0].youtube}" target="_black">Y</a></li>
+    <li><a href="${cCards.social_Media[0].twitter}"  target="_black">T</a></li>
+    <li><a href="${cCards.social_Media[0].youtube}"  target="_black">Y</a></li>
   </ul>  
-  `
+  `;
 }
 
 export function crearNivel3(obj) {
@@ -181,32 +180,34 @@ export function crearListaVideos(obj) {
 function cargarEventosMenu(idGrupos) {
   const idMenu = document.getElementById("idMenuVideos");
   idMenu.addEventListener("click", (e) => {
-    console.log(e.target.innerText)
+    console.log(e.target.innerText);
     if (e.target && e.target.tagName === "LI") {
-      let filtroCategoriaVideos = listaVideos.filter(f => f.categoria_videos === e.target.innerText)
+      let filtroCategoriaVideos = listaVideos.filter(
+        (f) => f.categoria_videos === e.target.innerText
+      );
       limpiarSectionGrupos();
-      if(e.target.innerText === "Todos"){
-        crearNivel1_CategoriasVideos(idGrupos,listaVideos)
+      if (e.target.innerText === "Todos") {
+        crearNivel1_CategoriasVideos(idGrupos, listaVideos);
       } else {
-        crearNivel1_CategoriasVideos(idGrupos,filtroCategoriaVideos)
+        crearNivel1_CategoriasVideos(idGrupos, filtroCategoriaVideos);
       }
     }
-  })
+  });
 }
 
-function crearNivel1_CategoriasVideos(idGrupos,categoriaVideo){
+function crearNivel1_CategoriasVideos(idGrupos, categoriaVideo) {
   idGrupos.innerHTML += categoriaVideo
-      .map(
-        (m) =>
-          `         
+    .map(
+      (m) =>
+        `         
           <h2>${m.categoria_videos}</h2>
           <hr>        
           <div class="site-map-cards">            
             ${crearListaVideos(m.grupo_videos)}
           </div>
     `
-      )
-      .join("");
+    )
+    .join("");
 }
 
 /** Libros */
