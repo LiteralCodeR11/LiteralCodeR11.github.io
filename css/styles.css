@@ -299,16 +299,16 @@ ul b {
   font-size: 120%;
 }
 
-ol.lista-categorias {
+.lista-categorias {
   padding: 15px 60px;
 }
 
-ol.lista-categorias li a {
+.lista-categorias li a {
   text-decoration: none;
   color: #0276b3;
 }
 
-ol.lista-categorias li a:hover {
+.lista-categorias li a:hover {
   text-decoration: underline;
   color: #004a72;
 }
