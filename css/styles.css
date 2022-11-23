@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Open+Sans:wght@300;400;500;800&family=Roboto+Flex:opsz,wght@8..144,300;8..144,500;8..144,1000&display=swap");
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -276,14 +278,14 @@ footer {
 
 /*Texto y listas globales*/
 h1 {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 32px;
   margin: 0px 0 10px;
 }
 
 h2,
 h3 {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   margin: 0px 0 10px;
 }
 
@@ -295,6 +297,20 @@ ul {
 ul b {
   font-weight: bolder;
   font-size: 120%;
+}
+
+ol.lista-categorias {
+  padding: 15px 60px;
+}
+
+ol.lista-categorias li a {
+  text-decoration: none;
+  color: #0276b3;
+}
+
+ol.lista-categorias li a:hover {
+  text-decoration: underline;
+  color: #004a72;
 }
 
 hr.hrCorto {
@@ -495,6 +511,7 @@ a.asideLink:hover {
   color: white;
   text-decoration: none;
 }
+
 /*Redes Sociales*/
 .redes-sociales {
   padding-top: 10px;
@@ -522,20 +539,21 @@ a.asideLink:hover {
   display: flex;
   justify-content: left;
   align-items: center;
-  list-style-type: none;  
+  list-style-type: none;
   margin: 0;
 }
+
 .redesMentores li {
   width: 30px;
   height: 30px;
-  background-color: rgb(0,125,218);
+  background-color: rgb(0, 125, 218);
   border: 2px solid rgb(247, 185, 15);
   border-radius: 50%;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5px;   
+  margin-left: 5px;
 }
 
 .redesMentores a {
@@ -552,6 +570,7 @@ a.asideLink:hover {
 }
 
 @media screen and (max-width: 1000px) {
+
   main,
   main.container {
     display: flex;
