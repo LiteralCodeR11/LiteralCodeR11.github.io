@@ -1308,6 +1308,16 @@ export const dbRutas = [
     notas: "[squarespace.com]",
     group: [
       {
+        linkHref: "https://vercel.com/dashboard",
+        targetType: "_blank",
+        imgSrc: "./public/images/app/vercel-hosting.jpg",
+        titleH2: "Vercel",
+        titleH3: "Plataforma frontend y hosting",
+        contents:
+          "Vercel es una plataforma que brinda hosting gratis para tus páginas web estáticas. Tienen varios ejemplos, con los principales frameworks frontend javascript para que puedas crear tu proyecto from scratch.",
+        cursos: [],
+      },
+      {
         linkHref: "https://pages.github.com/",
         targetType: "_blank",
         imgSrc: "./public/images/app/github-pages.jpg",
@@ -1327,17 +1337,7 @@ export const dbRutas = [
         contents:
           "W3Schools proporciona W3Schools Spaces para alojar su sitio web estático. Con Spaces, puede alojar fácilmente su sitio web con unos pocos clics.",
         cursos: [],
-      },
-      {
-        linkHref: "https://vercel.com/dashboard",
-        targetType: "_blank",
-        imgSrc: "./public/images/app/vercel-hosting.jpg",
-        titleH2: "Vercel",
-        titleH3: "Plataforma frontend y hosting",
-        contents:
-          "Vercel es una plataforma que brinda hosting gratis para tus páginas web estáticas. Tienen varios ejemplos, con los principales frameworks frontend javascript para que puedas crear tu proyecto from scratch.",
-        cursos: [],
-      },
+      },      
     ],
   },
   {
