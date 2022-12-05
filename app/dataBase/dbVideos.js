@@ -781,6 +781,16 @@ export const listaVideos = [
     categoria_videos: "Trabajos",
     grupo_videos: [
       {
+        idVideo: "8uCWEhrR-ys",
+        imagen: "hq720",
+        titulo: "Cómo tener estabilidad laboral en la crisis de 2023",
+        canal: "Platzi | Freddy Vegas",
+        texto:
+          "La estabilidad es tu problema, tienes que buscar crecimiento. El crecimiento es mejor que la estabilidad y en este video, Freddy Vega te lo explica.",
+        categoria: "Trabajos",
+        etiqueta: "",
+      },
+      {
         idVideo: "UgqnRtQgTCI",
         imagen: "hq720",
         titulo: "Cómo conseguir trabajo en la industria Tech",
