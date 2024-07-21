@@ -5,7 +5,7 @@ export function crearListaCategorias(rutas) {
   const idCategorias = document.getElementById("categorias");
   const idGrupos = document.getElementById("grupos");
   idCategorias.innerHTML = `
-    <h2>Code R11: Mapa del Sitio</h2>
+    <h2>Contenido:</h2>
     <ol id="lista">${mostrarCategorias(rutas)}</ol>
   `;
 }
