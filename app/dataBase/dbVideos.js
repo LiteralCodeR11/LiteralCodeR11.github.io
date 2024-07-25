@@ -208,6 +208,15 @@ export const listaVideos = [
         etiqueta: "",
       },
       {
+        idVideo: "VwF6y91PCH0",
+        imagen: "hq720",
+        titulo: "Cuánto durará el reino de JavaScript",
+        canal: "Platzi",
+        texto: "JavaScript es el lenguaje de la web. Por años ha sido el lenguaje más relevante y popular. ¿Hasta cuando su popularidad?",
+        categoria: "JavaScript",
+        etiqueta: "",
+      },
+      {
         idVideo: "6pidsgeLLzE",
         imagen: "hq720",
         titulo:
