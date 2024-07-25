@@ -212,7 +212,7 @@ export const listaVideos = [
         imagen: "hq720",
         titulo: "Cuánto durará el reino de JavaScript",
         canal: "Platzi",
-        texto: "JavaScript es el lenguaje de la web. Por años ha sido el lenguaje más relevante y popular. ¿Hasta cuando su popularidad?",
+        texto: "¿hasta cuándo reinará JavaScript? Este video explora la evolución de JavaScript, los desafíos que enfrenta y su futuro en el dinámico mundo del desarrollo web.",
         categoria: "JavaScript",
         etiqueta: "",
       },
