@@ -424,6 +424,36 @@ export const listaVideos = [
     categoria_videos: "React",
     grupo_videos: [
       {
+        idVideo: "7iobxzd_2wY",
+        imagen: "hq720",
+        titulo: "CURSO REACT 2024 - Aprende desde cero",
+        canal: "midulive",
+        texto:
+          "Curso de React desde cero. ¿Qué es? ¿Por qué deberías aprenderlo? ¿Cómo crear tu primera aplicación? Todo lo que necesitas saber para empezar lo tienes en este vídeo.",
+        categoria: "React",
+        etiqueta: "",
+      },
+      {
+        idVideo: "yIr_1CasXkM",
+        imagen: "hq720",
+        titulo: "Aprende React ahora! curso completo para crear aplicaciones",
+        canal: "HolaMundo",
+        texto:
+          "React es una biblioteca de JavaScript. React permite a los desarrolladores construir componentes reutilizables que gestionan su propio estado, y luego combinarlos para crear aplicaciones complejas.",
+        categoria: "React",
+        etiqueta: "",
+      },
+      {
+        idVideo: "z997qRX2gzk",
+        imagen: "hq720",
+        titulo: "Ruta para Aprender React en 2024 (React Roadmap)",
+        canal: "Fazt Code",
+        texto:
+          "Entre algunos de los conceptos que podemos encontrar en este video estan los  hooks, estados, Props, bibliotecas de manejo de estado, React Router, UI Component Library, y otros conceptos esenciales que les ayudaran a crear proyectos reales en esta biblioteca y sus frameworks",
+        categoria: "React",
+        etiqueta: "",
+      },
+      {
         idVideo: "rLoWMU4L_qE",
         imagen: "hq720",
         titulo: "Curso de Reactjs desde Cero para principiantes 2022",
