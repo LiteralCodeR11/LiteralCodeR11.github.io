@@ -35,7 +35,7 @@ function crearEncabezado() {
 
 function crearPiePagina() {
   return `
-    <a class="email-coder11" href="mailto:literalcoder11@gmail.com">literalcoder11@gmail.com</a> 
+    <a class="email-coder11" href="mailto:serviciosJMartinez@gmail.com">serviciosJMartinez@gmail.com</a> 
     <p>Design by Juan Alvaro Martinez | 2022-2024 Equipo Code R11 </p>         
     <p>Aprendizaje Activo basado en Proyectos | <a href="https://github.com/LiteralCodeR11/LiteralCodeR11.github.io" target="_blank" class="links-footer">GitHub</a></p>        
   `;
