@@ -941,6 +941,16 @@ export const listaVideos = [
         etiqueta: "",
       },
       {
+        idVideo: "2-6hEFsXMaU",
+        imagen: "hq720",
+        titulo: "Examen Técnico Frontend en Tiempo Real",
+        canal: "Programación Accesible",
+        texto:
+          "Resolviendo un examen técnico frontend real y en tiempo real",
+        categoria: "Desarrollo Web",
+        etiqueta: "",
+      },
+      {
         idVideo: "_YwKSdtWr0Q",
         imagen: "hq720",
         titulo: "Sitios Web Asombrosos",
