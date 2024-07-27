@@ -179,6 +179,16 @@ export const listaVideos = [
     categoria_videos: "JavaScript",
     grupo_videos: [
       {
+        idVideo: "QoC4RxNIs5M",
+        imagen: "hq720",
+        titulo: "Aprende JavaScript Ahora! curso completo desde cero para principiantes",
+        canal: "HolaMundo",
+        texto:
+          "No importa si eres un principiante absoluto o si ya tienes algo de experiencia, este curso está diseñado para llevarte al siguiente nivel.",
+        categoria: "JavaScript",
+        etiqueta: "",
+      },
+      {
         idVideo: "RqQ1d1qEWlE",
         imagen: "hq720",
         titulo: "Curso Javascript para Principiantes",
@@ -450,6 +460,16 @@ export const listaVideos = [
         canal: "Fazt Code",
         texto:
           "Entre algunos de los conceptos que podemos encontrar en este video estan los  hooks, estados, Props, bibliotecas de manejo de estado, React Router, UI Component Library, y otros conceptos esenciales que les ayudaran a crear proyectos reales en esta biblioteca y sus frameworks",
+        categoria: "React",
+        etiqueta: "",
+      },
+      {
+        idVideo: "kEMr0rFjB7E",
+        imagen: "hq720",
+        titulo: "¿Qué es React y por qué domina el desarrollo frontend?",
+        canal: "EDTeam",
+        texto:
+          "React es la tecnología frontend más utilizada en el mundo y está presente en reconocidas empresas como Notion, Uber, Netflix, Tiktok, Facebook, y, por supuesto, EDteam.",
         categoria: "React",
         etiqueta: "",
       },
@@ -910,6 +930,16 @@ export const listaVideos = [
   {
     categoria_videos: "Desarrollo Web",
     grupo_videos: [
+      {
+        idVideo: "F5D79SetjFI",
+        imagen: "hq720",
+        titulo: "¿Cuál es la mejor ruta para ser programador en 2024?",
+        canal: "EDTeam",
+        texto:
+          "Para convertirse en un programador exitoso, es fundamental seguir una ruta de aprendizaje estructurada y actualizada. ",
+        categoria: "Desarrollo Web",
+        etiqueta: "",
+      },
       {
         idVideo: "_YwKSdtWr0Q",
         imagen: "hq720",
