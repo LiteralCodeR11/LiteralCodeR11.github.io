@@ -57,6 +57,15 @@ export const listaVideos = [
     categoria_videos: "CSS",
     grupo_videos: [
       {
+        idVideo: "ELSm-G201Ls",
+        imagen: "hq720",
+        titulo: "Curso de HTML y CSS desde CERO (Completo)",
+        canal: "Soy Dalto",
+        texto: "El curso más completo y didáctico de HTML y CSS. De los más básico a lo más complejo para que adquieras una base sólida para dominar el desarrollo web front-end",
+        categoria: "CSS",
+        etiqueta: "",
+      },
+      {
         idVideo: "wZniZEbPAzk",
         imagen: "hq720",
         titulo: "Aprende CSS ahora! curso completo GRATIS desde cero",
