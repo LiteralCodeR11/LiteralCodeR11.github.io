@@ -1,5 +1,7 @@
 import { listaVideos } from "./dataBase/dbVideos.js";
 
+
+
 function crearLista(obj) {
   if (!Array.isArray(obj) || obj.length === 0 || !obj[0].grupo_videos) {
     console.error("El objeto no tiene el formato esperado.");
@@ -27,15 +29,25 @@ function crearLista(obj) {
 }
 
 function mostrarVideos() {
-  const filtrar = document.getElementsByTagName("body")[0].id;
-  if (filtrar == "todos") {
-    const videoItem = document.getElementById("videoItem");
-    videoItem.innerHTML += `${listaVideos.map(crearLista).join("")}`;
+  const bodyElement = document.getElementsByTagName("body")[0];
+  if (!bodyElement || !bodyElement.id) {
+    console.error("El elemento body no tiene un ID.");
+    return;
+  }
+  
+  const filtrar = bodyElement.id;
+  const videoItem = document.getElementById("videoItem");
+  if (!videoItem) {
+    console.error("No se encontró el elemento videoItem.");
+    return;
+  }
+
+  if (filtrar === "todos") {
+    videoItem.innerHTML = listaVideos.map(crearLista).join("");
   } else {
     const result = Object.values(listaVideos).filter(
       (x) => x.categoria_videos === filtrar
     );
-    const videoItem = document.getElementById("videoItem");
     videoItem.innerHTML = crearLista(result);
   }
 }
