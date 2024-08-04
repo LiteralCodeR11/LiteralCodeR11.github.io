@@ -676,6 +676,16 @@ export const listaVideos = [
     categoria_videos: "Tools",
     grupo_videos: [
       {
+        idVideo: "jgVR6d1m5uE",
+        imagen: "hq720_2",
+        titulo: "Hosting para Alojar y Desplegar Aplicaciones",
+        canal: "Fazt",
+        texto: 
+        "Cuando desarrollo aplicaciones web o sitios web tiendo a usar servicios de Hosting y servicios de la nube que me permiten desplegar aplicaciones rápidamente y llevarlas a produccion.",
+        categoria: "Tools",
+        etiqueta: "",
+      },
+      {
         idVideo: "bp_IXqYRgYw",
         imagen: "hq720_2",
         titulo: "Recursos para mejorar tus páginas web",
